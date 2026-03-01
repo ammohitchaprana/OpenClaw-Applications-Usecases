@@ -89,26 +89,26 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 1 | **Pre-Build Idea Validator** | Scan GitHub, HN, npm, PyPI & Product Hunt before building anything. Get a `reality_signal` score (0–100) showing how crowded the space is. | [idea-reality-mcp](https://github.com/mnemox-ai/idea-reality-mcp) |
-| 2 | **Market Research Autopilot** | Mine Reddit & X for real pain points using the Last 30 Days skill, then have OpenClaw build MVPs that solve them. | reddit-readonly, x-engagement |
-| 3 | **Competitor Watch Dashboard** | Monitor competitor websites, pricing pages, changelogs, and social for changes. Get a weekly diff report. | browser, web-search, cron |
-| 4 | **Investor Update Generator** | Pull metrics from Stripe, Google Analytics, and your CRM. Draft a monthly investor email with charts and narrative. | stripe, google-analytics, gmail |
-| 5 | **Pitch Deck Research Assistant** | Given a market thesis, research TAM/SAM/SOM, find comparable funding rounds, and compile into a structured brief. | web-search, browser |
-| 6 | **Automated Client Onboarding** | One message triggers folder creation, welcome emails, CRM updates, calendar invites, and access provisioning in under 15 minutes. | google-drive, gmail, google-calendar, notion |
-| 7 | **Revenue & MRR Tracker** | Fetch Stripe revenue data daily, calculate MRR/ARR/churn, and send a morning Slack summary with trend arrows. | stripe, slack |
-| 8 | **Startup Name & Domain Checker** | Generate names for your idea, instantly check domain availability, social handle availability, and trademark conflicts. | web-search, browser, whois |
-| 9 | **Customer Interview Scheduler** | When someone fills out a Typeform for user interviews, auto-schedule a Calendly call, send reminders, and prep a brief. | webhooks, google-calendar, gmail |
-| 10 | **Board Meeting Prep** | Aggregate KPIs from all tools, build a board deck outline, draft talking points, and send to board members 48hrs before meeting. | stripe, google-analytics, notion, gmail |
-| 11 | **Legal Doc First Draft** | Generate first drafts of NDAs, contractor agreements, and terms of service from templates. Flag sections that need attorney review. | file-system, browser |
-| 12 | **Hiring Pipeline Manager** | Post jobs to multiple boards, screen incoming applications against criteria, schedule interviews, and send rejection/acceptance emails. | gmail, google-calendar, notion |
-| 13 | **Product-Market Fit Survey Bot** | Send Superhuman PMF surveys to users at the right time, collect responses, calculate PMF score, and surface insights. | gmail, google-sheets, webhooks |
-| 14 | **Burn Rate Calculator** | Connect to banking/accounting tools, calculate monthly burn, forecast runway, and alert when runway drops below X months. | plaid, google-sheets, slack |
-| 15 | **Co-Founder Match Research** | Given criteria (technical background, location, domain expertise), scan LinkedIn/AngelList and compile candidate profiles. | web-search, browser |
-| 16 | **OKR Tracking System** | Set quarterly OKRs in Notion, track key results weekly with automated check-ins, and generate progress reports. | notion, slack, cron |
-| 17 | **Startup Tax Deadline Tracker** | Monitor upcoming tax deadlines (quarterly estimates, annual filings, state filings), send reminders 30/14/7 days before. | google-calendar, gmail, cron |
-| 18 | **Fundraising CRM** | Track investor conversations, follow-ups, term sheet status, and pipeline — all from your messaging app. | notion, gmail, google-calendar |
-| 19 | **Cap Table Scenario Modeler** | Given current cap table, model dilution across funding scenarios and generate comparison reports. | google-sheets, file-system |
-| 20 | **Customer Churn Early Warning** | Monitor usage patterns, support tickets, and billing data. Alert you when a customer shows signs of churning. | stripe, intercom, slack |
+| 1 | **[Pre-Build Idea Validator](usecases/pre-build-idea-validator.md)** | Scan GitHub, HN, npm, PyPI & Product Hunt before building anything. Get a `reality_signal` score (0–100) showing how crowded the space is. | [idea-reality-mcp](https://github.com/mnemox-ai/idea-reality-mcp) |
+| 2 | **[Market Research Autopilot](usecases/market-research-autopilot.md)** | Mine Reddit & X for real pain points using the Last 30 Days skill, then have OpenClaw build MVPs that solve them. | reddit-readonly, x-engagement |
+| 3 | **[Competitor Watch Dashboard](usecases/competitor-watch-dashboard.md)** | Monitor competitor websites, pricing pages, changelogs, and social for changes. Get a weekly diff report. | browser, web-search, cron |
+| 4 | **[Investor Update Generator](usecases/investor-update-generator.md)** | Pull metrics from Stripe, Google Analytics, and your CRM. Draft a monthly investor email with charts and narrative. | stripe, google-analytics, gmail |
+| 5 | **[Pitch Deck Research Assistant](usecases/pitch-deck-research-assistant.md)** | Given a market thesis, research TAM/SAM/SOM, find comparable funding rounds, and compile into a structured brief. | web-search, browser |
+| 6 | **[Automated Client Onboarding](usecases/automated-client-onboarding.md)** | One message triggers folder creation, welcome emails, CRM updates, calendar invites, and access provisioning in under 15 minutes. | google-drive, gmail, google-calendar, notion |
+| 7 | **[Revenue & MRR Tracker](usecases/revenue-mrr-tracker.md)** | Fetch Stripe revenue data daily, calculate MRR/ARR/churn, and send a morning Slack summary with trend arrows. | stripe, slack |
+| 8 | **[Startup Name & Domain Checker](usecases/startup-name-domain-checker.md)** | Generate names for your idea, instantly check domain availability, social handle availability, and trademark conflicts. | web-search, browser, whois |
+| 9 | **[Customer Interview Scheduler](usecases/customer-interview-scheduler.md)** | When someone fills out a Typeform for user interviews, auto-schedule a Calendly call, send reminders, and prep a brief. | webhooks, google-calendar, gmail |
+| 10 | **[Board Meeting Prep](usecases/board-meeting-prep.md)** | Aggregate KPIs from all tools, build a board deck outline, draft talking points, and send to board members 48hrs before meeting. | stripe, google-analytics, notion, gmail |
+| 11 | **[Legal Doc First Draft](usecases/legal-doc-first-draft.md)** | Generate first drafts of NDAs, contractor agreements, and terms of service from templates. Flag sections that need attorney review. | file-system, browser |
+| 12 | **[Hiring Pipeline Manager](usecases/hiring-pipeline-manager.md)** | Post jobs to multiple boards, screen incoming applications against criteria, schedule interviews, and send rejection/acceptance emails. | gmail, google-calendar, notion |
+| 13 | **[Product-Market Fit Survey Bot](usecases/product-market-fit-survey.md)** | Send Superhuman PMF surveys to users at the right time, collect responses, calculate PMF score, and surface insights. | gmail, google-sheets, webhooks |
+| 14 | **[Burn Rate Calculator](usecases/burn-rate-calculator.md)** | Connect to banking/accounting tools, calculate monthly burn, forecast runway, and alert when runway drops below X months. | plaid, google-sheets, slack |
+| 15 | **[Co-Founder Match Research](usecases/co-founder-match-research.md)** | Given criteria (technical background, location, domain expertise), scan LinkedIn/AngelList and compile candidate profiles. | web-search, browser |
+| 16 | **[OKR Tracking System](usecases/okr-tracking-system.md)** | Set quarterly OKRs in Notion, track key results weekly with automated check-ins, and generate progress reports. | notion, slack, cron |
+| 17 | **[Startup Tax Deadline Tracker](usecases/startup-tax-deadline-tracker.md)** | Monitor upcoming tax deadlines (quarterly estimates, annual filings, state filings), send reminders 30/14/7 days before. | google-calendar, gmail, cron |
+| 18 | **[Fundraising CRM](usecases/fundraising-crm.md)** | Track investor conversations, follow-ups, term sheet status, and pipeline — all from your messaging app. | notion, gmail, google-calendar |
+| 19 | **[Cap Table Scenario Modeler](usecases/cap-table-scenario-modeler.md)** | Given current cap table, model dilution across funding scenarios and generate comparison reports. | google-sheets, file-system |
+| 20 | **[Customer Churn Early Warning](usecases/customer-churn-early-warning.md)** | Monitor usage patterns, support tickets, and billing data. Alert you when a customer shows signs of churning. | stripe, intercom, slack |
 
 ---
 
@@ -118,26 +118,26 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 21 | **Overnight Mini-App Builder** | Brain dump goals before bed; OpenClaw generates, codes, tests, and pushes surprise mini-apps to GitHub by morning. | github, shell, cron |
-| 22 | **Feature Request Aggregator** | Collect feature requests from Intercom, Discord, email, and Twitter. Deduplicate, categorize, and rank by frequency. | intercom, discord, gmail, x-engagement |
-| 23 | **SaaS Metrics Morning Brief** | Wake up to MRR, churn rate, new signups, NPS, and top support tickets — sent via Telegram at 7am. | stripe, intercom, google-analytics, telegram |
-| 24 | **Changelog Auto-Publisher** | When a GitHub release is created, auto-generate a human-readable blog post, tweet, and email to users. | github, wordpress, x-engagement, gmail |
-| 25 | **Uptime & Performance Monitor** | Ping your endpoints every 5 minutes. If downtime is detected, alert via Telegram/Slack and create an incident page. | web-fetch, slack, telegram, cron |
-| 26 | **Trial-to-Paid Conversion Optimizer** | Monitor trial users' engagement. Send personalized emails/tips at day 3, 7, and 12 based on their usage patterns. | stripe, gmail, cron |
-| 27 | **Bug Triage Automation** | Sentry errors trigger OpenClaw to analyze the stack trace, find the relevant code, draft a fix PR, and notify the dev on Slack. | sentry, github, slack, codex |
-| 28 | **Database Backup Verifier** | After nightly DB backups, verify integrity, check backup size anomalies, and send a pass/fail report. | shell, s3, slack |
-| 29 | **API Documentation Generator** | Scan your codebase for API endpoints, generate OpenAPI specs, and create human-readable docs with examples. | github, file-system, shell |
-| 30 | **Competitor Feature Parity Tracker** | Maintain a matrix of your features vs competitors. Auto-update when competitor changelogs are published. | web-search, browser, google-sheets |
-| 31 | **User Onboarding Flow Analyzer** | Pull event data from Mixpanel/Amplitude, identify drop-off points, and suggest copy/UX improvements. | browser, web-search |
-| 32 | **Pricing Page A/B Test Monitor** | Track which pricing page variant performs better, calculate statistical significance, and notify when a winner is found. | google-analytics, slack |
-| 33 | **Dependency Vulnerability Scanner** | Daily scan of package.json, requirements.txt, or Gemfile for outdated packages. Flag security updates and breaking changes. | github, shell, slack |
-| 34 | **Multi-Repo PR Reviewer** | Summarize PRs across multiple repos daily. Highlight missing tests, security concerns, and style violations. | github, slack |
-| 35 | **Customer Health Score Dashboard** | Compute a health score per customer based on login frequency, feature usage, support tickets, and billing history. | stripe, intercom, google-sheets |
-| 36 | **Open Source Community Manager** | Auto-respond to GitHub issues with triage labels, welcome first-time contributors, and compile weekly contributor reports. | github, discord |
-| 37 | **SaaS Revenue Forecaster** | Based on current MRR, growth rate, and churn, project revenue 3/6/12 months out with scenarios. | stripe, google-sheets |
-| 38 | **Product Hunt Launch Coordinator** | Schedule PH launch tasks, draft first comment, prepare social posts, monitor rank, and send real-time updates. | browser, x-engagement, slack, cron |
-| 39 | **Feedback Loop to Roadmap** | Classify all incoming feedback by theme, link to existing roadmap items, and surface unmet needs. | intercom, notion, slack |
-| 40 | **SaaS Affiliate Program Manager** | Track affiliate signups, conversions, payouts. Send monthly reports and auto-generate commission invoices. | stripe, google-sheets, gmail |
+| 21 | **[Overnight Mini-App Builder](usecases/overnight-mini-app-builder.md)** | Brain dump goals before bed; OpenClaw generates, codes, tests, and pushes surprise mini-apps to GitHub by morning. | github, shell, cron |
+| 22 | **[Feature Request Aggregator](usecases/feature-request-aggregator.md)** | Collect feature requests from Intercom, Discord, email, and Twitter. Deduplicate, categorize, and rank by frequency. | intercom, discord, gmail, x-engagement |
+| 23 | **[SaaS Metrics Morning Brief](usecases/saas-metrics-morning-brief.md)** | Wake up to MRR, churn rate, new signups, NPS, and top support tickets — sent via Telegram at 7am. | stripe, intercom, google-analytics, telegram |
+| 24 | **[Changelog Auto-Publisher](usecases/changelog-auto-publisher.md)** | When a GitHub release is created, auto-generate a human-readable blog post, tweet, and email to users. | github, wordpress, x-engagement, gmail |
+| 25 | **[Uptime & Performance Monitor](usecases/uptime-performance-monitor.md)** | Ping your endpoints every 5 minutes. If downtime is detected, alert via Telegram/Slack and create an incident page. | web-fetch, slack, telegram, cron |
+| 26 | **[Trial-to-Paid Conversion Optimizer](usecases/trial-to-paid-conversion-optimizer.md)** | Monitor trial users' engagement. Send personalized emails/tips at day 3, 7, and 12 based on their usage patterns. | stripe, gmail, cron |
+| 27 | **[Bug Triage Automation](usecases/bug-triage-automation.md)** | Sentry errors trigger OpenClaw to analyze the stack trace, find the relevant code, draft a fix PR, and notify the dev on Slack. | sentry, github, slack, codex |
+| 28 | **[Database Backup Verifier](usecases/database-backup-verifier.md)** | After nightly DB backups, verify integrity, check backup size anomalies, and send a pass/fail report. | shell, s3, slack |
+| 29 | **[API Documentation Generator](usecases/api-docs-generator.md)** | Scan your codebase for API endpoints, generate OpenAPI specs, and create human-readable docs with examples. | github, file-system, shell |
+| 30 | **[Competitor Feature Parity Tracker](usecases/competitor-feature-parity-tracker.md)** | Maintain a matrix of your features vs competitors. Auto-update when competitor changelogs are published. | web-search, browser, google-sheets |
+| 31 | **[User Onboarding Flow Analyzer](usecases/user-onboarding-flow-analyzer.md)** | Pull event data from Mixpanel/Amplitude, identify drop-off points, and suggest copy/UX improvements. | browser, web-search |
+| 32 | **[Pricing Page A/B Test Monitor](usecases/pricing-page-ab-test-monitor.md)** | Track which pricing page variant performs better, calculate statistical significance, and notify when a winner is found. | google-analytics, slack |
+| 33 | **[Dependency Vulnerability Scanner](usecases/dependency-vulnerability-scanner.md)** | Daily scan of package.json, requirements.txt, or Gemfile for outdated packages. Flag security updates and breaking changes. | github, shell, slack |
+| 34 | **[Multi-Repo PR Reviewer](usecases/multi-repo-pr-reviewer.md)** | Summarize PRs across multiple repos daily. Highlight missing tests, security concerns, and style violations. | github, slack |
+| 35 | **[Customer Health Score Dashboard](usecases/customer-health-score-dashboard.md)** | Compute a health score per customer based on login frequency, feature usage, support tickets, and billing history. | stripe, intercom, google-sheets |
+| 36 | **[Open Source Community Manager](usecases/open-source-community-manager.md)** | Auto-respond to GitHub issues with triage labels, welcome first-time contributors, and compile weekly contributor reports. | github, discord |
+| 37 | **[SaaS Revenue Forecaster](usecases/saas-revenue-forecaster.md)** | Based on current MRR, growth rate, and churn, project revenue 3/6/12 months out with scenarios. | stripe, google-sheets |
+| 38 | **[Product Hunt Launch Coordinator](usecases/product-hunt-launch-coordinator.md)** | Schedule PH launch tasks, draft first comment, prepare social posts, monitor rank, and send real-time updates. | browser, x-engagement, slack, cron |
+| 39 | **[Feedback Loop to Roadmap](usecases/feedback-loop-to-roadmap.md)** | Classify all incoming feedback by theme, link to existing roadmap items, and surface unmet needs. | intercom, notion, slack |
+| 40 | **[SaaS Affiliate Program Manager](usecases/saas-affiliate-program-manager.md)** | Track affiliate signups, conversions, payouts. Send monthly reports and auto-generate commission invoices. | stripe, google-sheets, gmail |
 
 ---
 
@@ -147,26 +147,26 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 41 | **Autonomous Code Review** | Fetch PR diffs, analyze for missing tests, unclear names, security concerns, and convention violations. Post reviews to GitHub. | github, codex |
-| 42 | **CI/CD Pipeline Monitor** | Watch GitHub Actions / GitLab CI. Alert on failures, analyze logs, suggest fixes, and optionally auto-retry. | github, slack, shell |
-| 43 | **Auto-Fix Sentry Errors** | Sentry alert → OpenClaw reads stack trace → identifies bug → generates fix → opens PR → notifies on Slack. | sentry, github, codex, slack |
-| 44 | **Technical Debt Tracker** | Scan codebase for TODO/FIXME/HACK comments, track count over time, and generate a weekly debt report. | github, shell, slack |
-| 45 | **Documentation Freshness Checker** | Compare docs with current code. Flag stale docs, outdated API references, and missing function descriptions. | github, file-system |
-| 46 | **Package Update Manager** | Weekly check for dependency updates, read changelogs, assess risk, and create a summary with upgrade recommendations. | shell, github |
-| 47 | **Git Commit Message Enforcer** | Review commits for conventional commit format. Suggest rewrites for unclear messages before they hit main. | github |
-| 48 | **Architecture Decision Logger** | When discussing tech choices in Slack/Discord, capture the decision, reasoning, and alternatives into an ADR file in the repo. | slack, discord, github |
-| 49 | **Code Snippet Library Builder** | Save useful code snippets from conversations into a searchable knowledge base with tags and descriptions. | file-system, memory |
-| 50 | **Release Notes Generator** | At release time, compile all merged PRs, categorize changes, and generate formatted release notes. | github |
-| 51 | **Local Dev Environment Doctor** | Check system dependencies, versions, environment variables, and configs. Report what's misconfigured. | shell |
-| 52 | **Database Migration Assistant** | Generate migration scripts from schema diffs, validate them in a staging environment, and flag breaking changes. | shell, github |
-| 53 | **API Rate Limit Monitor** | Track API rate limit usage across services (GitHub, Stripe, etc.) and alert before hitting limits. | web-fetch, slack |
-| 54 | **Performance Regression Detector** | After each deployment, run benchmarks and compare with baseline. Alert if response times degrade by >10%. | shell, slack |
-| 55 | **Code Coverage Watchdog** | Track test coverage per commit. Block PRs that drop coverage below threshold. Send weekly trend reports. | github, shell |
-| 56 | **Stack Overflow Research Agent** | Given a coding problem, search SO, GitHub Issues, and docs. Compile the best solution with context. | web-search, browser |
-| 57 | **Monorepo Change Impact Analyzer** | When a file changes, determine which packages/services are affected and which tests need to run. | github, shell |
-| 58 | **Secret Scanner** | Scan repos and commit history for accidentally committed API keys, passwords, and tokens. Alert immediately. | github, shell, slack |
-| 59 | **Coding Journal** | At end of day, summarize what you worked on, PRs merged, issues closed, and lessons learned. Save to daily log. | github, memory, cron |
-| 60 | **Refactoring Proposal Generator** | Analyze high-complexity functions, suggest refactoring approaches, and generate the initial refactored code. | github, codex |
+| 41 | **[Autonomous Code Review](usecases/autonomous-code-review.md)** | Fetch PR diffs, analyze for missing tests, unclear names, security concerns, and convention violations. Post reviews to GitHub. | github, codex |
+| 42 | **[CI/CD Pipeline Monitor](usecases/ci-cd-pipeline-monitor.md)** | Watch GitHub Actions / GitLab CI. Alert on failures, analyze logs, suggest fixes, and optionally auto-retry. | github, slack, shell |
+| 43 | **[Auto-Fix Sentry Errors](usecases/auto-fix-sentry-errors.md)** | Sentry alert → OpenClaw reads stack trace → identifies bug → generates fix → opens PR → notifies on Slack. | sentry, github, codex, slack |
+| 44 | **[Technical Debt Tracker](usecases/technical-debt-tracker.md)** | Scan codebase for TODO/FIXME/HACK comments, track count over time, and generate a weekly debt report. | github, shell, slack |
+| 45 | **[Documentation Freshness Checker](usecases/docs-freshness-checker.md)** | Compare docs with current code. Flag stale docs, outdated API references, and missing function descriptions. | github, file-system |
+| 46 | **[Package Update Manager](usecases/package-update-manager.md)** | Weekly check for dependency updates, read changelogs, assess risk, and create a summary with upgrade recommendations. | shell, github |
+| 47 | **[Git Commit Message Enforcer](usecases/git-commit-message-enforcer.md)** | Review commits for conventional commit format. Suggest rewrites for unclear messages before they hit main. | github |
+| 48 | **[Architecture Decision Logger](usecases/architecture-decision-logger.md)** | When discussing tech choices in Slack/Discord, capture the decision, reasoning, and alternatives into an ADR file in the repo. | slack, discord, github |
+| 49 | **[Code Snippet Library Builder](usecases/code-snippet-library.md)** | Save useful code snippets from conversations into a searchable knowledge base with tags and descriptions. | file-system, memory |
+| 50 | **[Release Notes Generator](usecases/release-notes-generator.md)** | At release time, compile all merged PRs, categorize changes, and generate formatted release notes. | github |
+| 51 | **[Local Dev Environment Doctor](usecases/local-dev-environment-doctor.md)** | Check system dependencies, versions, environment variables, and configs. Report what's misconfigured. | shell |
+| 52 | **[Database Migration Assistant](usecases/database-migration-assistant.md)** | Generate migration scripts from schema diffs, validate them in a staging environment, and flag breaking changes. | shell, github |
+| 53 | **[API Rate Limit Monitor](usecases/api-rate-limit-monitor.md)** | Track API rate limit usage across services (GitHub, Stripe, etc.) and alert before hitting limits. | web-fetch, slack |
+| 54 | **[Performance Regression Detector](usecases/performance-regression-detector.md)** | After each deployment, run benchmarks and compare with baseline. Alert if response times degrade by >10%. | shell, slack |
+| 55 | **[Code Coverage Watchdog](usecases/code-coverage-watchdog.md)** | Track test coverage per commit. Block PRs that drop coverage below threshold. Send weekly trend reports. | github, shell |
+| 56 | **[Stack Overflow Research Agent](usecases/stackoverflow-research-agent.md)** | Given a coding problem, search SO, GitHub Issues, and docs. Compile the best solution with context. | web-search, browser |
+| 57 | **[Monorepo Change Impact Analyzer](usecases/monorepo-change-impact-analyzer.md)** | When a file changes, determine which packages/services are affected and which tests need to run. | github, shell |
+| 58 | **[Secret Scanner](usecases/secret-scanner.md)** | Scan repos and commit history for accidentally committed API keys, passwords, and tokens. Alert immediately. | github, shell, slack |
+| 59 | **[Coding Journal](usecases/coding-journal.md)** | At end of day, summarize what you worked on, PRs merged, issues closed, and lessons learned. Save to daily log. | github, memory, cron |
+| 60 | **[Refactoring Proposal Generator](usecases/refactoring-proposal-generator.md)** | Analyze high-complexity functions, suggest refactoring approaches, and generate the initial refactored code. | github, codex |
 
 ---
 
@@ -176,26 +176,26 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 61 | **Self-Healing Home Server** | Always-on infrastructure agent with SSH access, automated cron jobs, and self-healing capabilities across your network. | ssh, shell, cron |
-| 62 | **n8n Workflow Orchestration** | Delegate API calls to n8n workflows via webhooks. The agent never touches credentials — every integration is visual and lockable. | n8n, webhooks |
-| 63 | **Docker Container Monitor** | Watch container health, restart failed containers, analyze logs for errors, and send status reports. | docker, shell, slack |
-| 64 | **SSL Certificate Expiry Watcher** | Track SSL cert expiration dates across all domains. Alert 30/14/7 days before expiry with renewal instructions. | shell, web-fetch, cron |
-| 65 | **Cloud Cost Optimizer** | Pull AWS/GCP/Azure billing data, identify underutilized resources, and suggest rightsizing or termination. | aws, shell, slack |
-| 66 | **Automated Server Provisioning** | Describe what you need in plain English; OpenClaw generates Terraform/Ansible configs and provisions the infrastructure. | terraform, ansible, shell |
-| 67 | **Log Analysis & Anomaly Detection** | Ingest logs from multiple sources, identify anomalies, correlate events, and alert on suspicious patterns. | shell, elasticsearch, slack |
-| 68 | **DNS Record Manager** | Manage DNS records across Cloudflare/Route53 via chat. Add, update, or remove records with confirmation gates. | cloudflare, aws, shell |
-| 69 | **Backup Strategy Auditor** | Audit all backup jobs, verify recent backups exist, test restoration, and generate a compliance report. | shell, s3, slack |
-| 70 | **Kubernetes Pod Health Monitor** | Watch pod status, restart counts, and resource usage. Alert on CrashLoopBackOff and OOM kills. | kubectl, shell, slack |
-| 71 | **Network Latency Tracker** | Ping critical endpoints from multiple regions, track latency trends, and alert on degradation. | shell, cron, slack |
-| 72 | **Cron Job Auditor** | List all cron jobs across servers, check for duplicates, conflicts, and jobs that haven't run recently. | ssh, shell |
-| 73 | **Firewall Rule Reviewer** | Audit firewall rules, flag overly permissive rules, and suggest tightening based on actual traffic patterns. | shell, ssh |
-| 74 | **Prometheus Alert Manager** | Query Prometheus metrics, create meaningful alerts, and route notifications to the right team channels. | prometheus, slack |
-| 75 | **Automated Disaster Recovery Test** | Monthly DR drill: spin up backup, verify services, test failover, and generate a pass/fail report. | shell, terraform, slack |
-| 76 | **Infrastructure Cost Report** | Weekly breakdown of cloud spending by service, team, and project with month-over-month comparisons. | aws, gcp, google-sheets |
-| 77 | **Deployment Rollback Assistant** | If post-deploy monitoring shows errors spiking, automatically rollback and notify the team with a diff of what changed. | github, shell, slack |
-| 78 | **Server Patch Management** | Identify servers needing security patches, schedule maintenance windows, and coordinate with team calendars. | ssh, shell, google-calendar |
-| 79 | **Uptime SLA Reporter** | Calculate uptime percentages per service, compare against SLA commitments, and generate monthly SLA reports. | shell, google-sheets, cron |
-| 80 | **Database Performance Analyzer** | Monitor slow queries, index usage, and connection pool health. Suggest optimization strategies. | shell, sql |
+| 61 | **[Self-Healing Home Server](usecases/self-healing-home-server.md)** | Always-on infrastructure agent with SSH access, automated cron jobs, and self-healing capabilities across your network. | ssh, shell, cron |
+| 62 | **[n8n Workflow Orchestration](usecases/n8n-workflow-orchestration.md)** | Delegate API calls to n8n workflows via webhooks. The agent never touches credentials — every integration is visual and lockable. | n8n, webhooks |
+| 63 | **[Docker Container Monitor](usecases/docker-container-monitor.md)** | Watch container health, restart failed containers, analyze logs for errors, and send status reports. | docker, shell, slack |
+| 64 | **[SSL Certificate Expiry Watcher](usecases/ssl-certificate-expiry-watcher.md)** | Track SSL cert expiration dates across all domains. Alert 30/14/7 days before expiry with renewal instructions. | shell, web-fetch, cron |
+| 65 | **[Cloud Cost Optimizer](usecases/cloud-cost-optimizer.md)** | Pull AWS/GCP/Azure billing data, identify underutilized resources, and suggest rightsizing or termination. | aws, shell, slack |
+| 66 | **[Automated Server Provisioning](usecases/automated-server-provisioning.md)** | Describe what you need in plain English; OpenClaw generates Terraform/Ansible configs and provisions the infrastructure. | terraform, ansible, shell |
+| 67 | **[Log Analysis & Anomaly Detection](usecases/log-analysis-anomaly-detection.md)** | Ingest logs from multiple sources, identify anomalies, correlate events, and alert on suspicious patterns. | shell, elasticsearch, slack |
+| 68 | **[DNS Record Manager](usecases/dns-record-manager.md)** | Manage DNS records across Cloudflare/Route53 via chat. Add, update, or remove records with confirmation gates. | cloudflare, aws, shell |
+| 69 | **[Backup Strategy Auditor](usecases/backup-strategy-auditor.md)** | Audit all backup jobs, verify recent backups exist, test restoration, and generate a compliance report. | shell, s3, slack |
+| 70 | **[Kubernetes Pod Health Monitor](usecases/kubernetes-pod-health.md)** | Watch pod status, restart counts, and resource usage. Alert on CrashLoopBackOff and OOM kills. | kubectl, shell, slack |
+| 71 | **[Network Latency Tracker](usecases/network-latency-tracker.md)** | Ping critical endpoints from multiple regions, track latency trends, and alert on degradation. | shell, cron, slack |
+| 72 | **[Cron Job Auditor](usecases/cron-job-auditor.md)** | List all cron jobs across servers, check for duplicates, conflicts, and jobs that haven't run recently. | ssh, shell |
+| 73 | **[Firewall Rule Reviewer](usecases/firewall-rule-reviewer.md)** | Audit firewall rules, flag overly permissive rules, and suggest tightening based on actual traffic patterns. | shell, ssh |
+| 74 | **[Prometheus Alert Manager](usecases/prometheus-alert-manager.md)** | Query Prometheus metrics, create meaningful alerts, and route notifications to the right team channels. | prometheus, slack |
+| 75 | **[Automated Disaster Recovery Test](usecases/automated-disaster-recovery-test.md)** | Monthly DR drill: spin up backup, verify services, test failover, and generate a pass/fail report. | shell, terraform, slack |
+| 76 | **[Infrastructure Cost Report](usecases/infrastructure-cost-report.md)** | Weekly breakdown of cloud spending by service, team, and project with month-over-month comparisons. | aws, gcp, google-sheets |
+| 77 | **[Deployment Rollback Assistant](usecases/deployment-rollback-assistant.md)** | If post-deploy monitoring shows errors spiking, automatically rollback and notify the team with a diff of what changed. | github, shell, slack |
+| 78 | **[Server Patch Management](usecases/server-patch-management.md)** | Identify servers needing security patches, schedule maintenance windows, and coordinate with team calendars. | ssh, shell, google-calendar |
+| 79 | **[Uptime SLA Reporter](usecases/uptime-sla-reporter.md)** | Calculate uptime percentages per service, compare against SLA commitments, and generate monthly SLA reports. | shell, google-sheets, cron |
+| 80 | **[Database Performance Analyzer](usecases/database-performance-analyzer.md)** | Monitor slow queries, index usage, and connection pool health. Suggest optimization strategies. | shell, sql |
 
 ---
 
@@ -205,22 +205,22 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 81 | **YouTube Content Pipeline** | Automate video idea scouting, research, scripting, and tracking for your channel. | web-search, youtube-api, notion |
-| 82 | **Multi-Agent Content Factory** | Research, writing, and thumbnail agents working in dedicated Discord channels as a production team. | discord, web-search, dalle |
-| 83 | **Podcast Production Pipeline** | Guest research → episode outlines → show notes → social promo — from topic to publish-ready assets. | web-search, gmail, x-engagement |
-| 84 | **Video Script Generator** | Given a topic and target audience, research trending angles, write a hook-driven script with timestamps. | web-search, browser, file-system |
-| 85 | **Thumbnail Concept Creator** | Analyze top-performing thumbnails in your niche, suggest concepts, and generate image prompts for Midjourney/DALL-E. | web-search, browser, dalle |
-| 86 | **Content Repurposing Engine** | Take long-form video → auto-generate blog post, Twitter thread, LinkedIn post, Instagram carousel script, and TikTok clips. | opusclip, x-engagement, linkedin |
-| 87 | **YouTube SEO Optimizer** | Research high-volume, low-competition keywords. Generate optimized titles, descriptions, and tags. | web-search, youtube-api |
-| 88 | **Sponsorship Pitch Drafter** | Track your channel metrics, compile media kit data, and draft personalized outreach emails to potential sponsors. | youtube-api, gmail, google-sheets |
-| 89 | **Content Calendar Manager** | Plan 30 days of content across platforms, schedule posts, and send daily reminders for what needs to be shot/edited. | notion, google-calendar, telegram |
-| 90 | **Comment Analysis & Response** | Analyze YouTube/Instagram comments for sentiment, surface questions to answer, and draft responses to top comments. | youtube-api, browser |
-| 91 | **Trending Topic Alert System** | Monitor Google Trends, Reddit, and X for trending topics in your niche. Alert when something is blow-up potential. | web-search, reddit-readonly, x-engagement, telegram |
-| 92 | **Course Launch Pipeline** | Outline course structure, draft lesson plans, create marketing email sequences, and set up launch landing page copy. | notion, gmail, file-system |
-| 93 | **UGC Video Generator** | Generate influencer-style videos using Sora/Runway for product reviews, tutorials, or explainers. | browser, shell |
-| 94 | **Collaboration Opportunity Finder** | Identify creators in your niche with similar audience sizes, draft collab proposals, and manage outreach. | web-search, gmail, google-sheets |
-| 95 | **Video Performance Analyzer** | Weekly report on your top/worst performing videos with retention graphs, CTR, and improvement suggestions. | youtube-api, google-sheets |
-| 96 | **Live Stream Assistant** | During live streams, monitor chat for questions, compile Q&A lists, and provide real-time topic suggestions. | discord, telegram |
+| 81 | **[YouTube Content Pipeline](usecases/youtube-content-pipeline.md)** | Automate video idea scouting, research, scripting, and tracking for your channel. | web-search, youtube-api, notion |
+| 82 | **[Multi-Agent Content Factory](usecases/content-factory.md)** | Research, writing, and thumbnail agents working in dedicated Discord channels as a production team. | discord, web-search, dalle |
+| 83 | **[Podcast Production Pipeline](usecases/podcast-production-pipeline.md)** | Guest research → episode outlines → show notes → social promo — from topic to publish-ready assets. | web-search, gmail, x-engagement |
+| 84 | **[Video Script Generator](usecases/video-script-generator.md)** | Given a topic and target audience, research trending angles, write a hook-driven script with timestamps. | web-search, browser, file-system |
+| 85 | **[Thumbnail Concept Creator](usecases/thumbnail-concept-creator.md)** | Analyze top-performing thumbnails in your niche, suggest concepts, and generate image prompts for Midjourney/DALL-E. | web-search, browser, dalle |
+| 86 | **[Content Repurposing Engine](usecases/content-repurposing-engine.md)** | Take long-form video → auto-generate blog post, Twitter thread, LinkedIn post, Instagram carousel script, and TikTok clips. | opusclip, x-engagement, linkedin |
+| 87 | **[YouTube SEO Optimizer](usecases/youtube-seo-optimizer.md)** | Research high-volume, low-competition keywords. Generate optimized titles, descriptions, and tags. | web-search, youtube-api |
+| 88 | **[Sponsorship Pitch Drafter](usecases/sponsorship-pitch-drafter.md)** | Track your channel metrics, compile media kit data, and draft personalized outreach emails to potential sponsors. | youtube-api, gmail, google-sheets |
+| 89 | **[Content Calendar Manager](usecases/content-calendar-manager.md)** | Plan 30 days of content across platforms, schedule posts, and send daily reminders for what needs to be shot/edited. | notion, google-calendar, telegram |
+| 90 | **[Comment Analysis & Response](usecases/comment-analysis-response.md)** | Analyze YouTube/Instagram comments for sentiment, surface questions to answer, and draft responses to top comments. | youtube-api, browser |
+| 91 | **[Trending Topic Alert System](usecases/trending-topic-alert-system.md)** | Monitor Google Trends, Reddit, and X for trending topics in your niche. Alert when something is blow-up potential. | web-search, reddit-readonly, x-engagement, telegram |
+| 92 | **[Course Launch Pipeline](usecases/course-launch-pipeline.md)** | Outline course structure, draft lesson plans, create marketing email sequences, and set up launch landing page copy. | notion, gmail, file-system |
+| 93 | **[UGC Video Generator](usecases/ugc-video-generator.md)** | Generate influencer-style videos using Sora/Runway for product reviews, tutorials, or explainers. | browser, shell |
+| 94 | **[Collaboration Opportunity Finder](usecases/collaboration-opportunity-finder.md)** | Identify creators in your niche with similar audience sizes, draft collab proposals, and manage outreach. | web-search, gmail, google-sheets |
+| 95 | **[Video Performance Analyzer](usecases/video-performance-analyzer.md)** | Weekly report on your top/worst performing videos with retention graphs, CTR, and improvement suggestions. | youtube-api, google-sheets |
+| 96 | **[Live Stream Assistant](usecases/live-stream-assistant.md)** | During live streams, monitor chat for questions, compile Q&A lists, and provide real-time topic suggestions. | discord, telegram |
 
 ---
 
@@ -230,20 +230,20 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 97 | **Multi-Platform Post Scheduler** | Write once, format for each platform (X, LinkedIn, Instagram, Facebook, TikTok), and schedule across all. | x-engagement, linkedin, buffer |
-| 98 | **X/Twitter Account Analyzer** | Get qualitative analysis of engagement patterns, audience insights, content performance, and recommendations. | x-engagement |
-| 99 | **Brand Mention Monitor** | Track mentions of your brand, product names, and keywords across X and Reddit. Alert on negative sentiment. | x-engagement, reddit-readonly, slack |
-| 100 | **Hashtag Research Agent** | For any topic, find the best-performing hashtags by platform with volume and competition data. | web-search, browser |
-| 101 | **Engagement Response Bot** | Draft replies to comments and DMs based on tone guidelines. Queue for approval before sending. | x-engagement, instagram |
-| 102 | **Social Media Analytics Reporter** | Weekly cross-platform analytics: impressions, engagement rate, follower growth, top posts, and recommendations. | x-engagement, google-analytics, google-sheets |
-| 103 | **Influencer Discovery Engine** | Find micro-influencers in your niche by analyzing follower quality, engagement rates, and content alignment. | web-search, browser, google-sheets |
-| 104 | **Crisis Communication Monitor** | Real-time monitoring for viral negative mentions. Alert immediately with suggested response strategies. | x-engagement, reddit-readonly, slack |
-| 105 | **LinkedIn Content Strategy** | Analyze your profile performance, research trending topics in your industry, and draft posts optimized for LinkedIn's algorithm. | linkedin, web-search |
-| 106 | **Community Engagement Tracker** | Track response times, comment volume, and sentiment across all community channels. Generate weekly engagement reports. | discord, slack, x-engagement |
-| 107 | **Meme & Trend Curator** | Monitor meme pages and trending formats. Suggest brand-appropriate meme ideas with templates. | reddit-readonly, web-search |
-| 108 | **Social Proof Aggregator** | Collect testimonials, reviews, and positive mentions from all platforms into a single swipe file. | x-engagement, browser, google-sheets |
-| 109 | **Content Plagiarism Checker** | Before posting, check if your content or hooks have been used by others in your niche. | web-search, browser |
-| 110 | **Social Media Ad Copy Generator** | Given a product and target audience, generate multiple ad copy variants for A/B testing across platforms. | web-search, file-system |
+| 97 | **[Multi-Platform Post Scheduler](usecases/multi-platform-post-scheduler.md)** | Write once, format for each platform (X, LinkedIn, Instagram, Facebook, TikTok), and schedule across all. | x-engagement, linkedin, buffer |
+| 98 | **[X/Twitter Account Analyzer](usecases/x-account-analysis.md)** | Get qualitative analysis of engagement patterns, audience insights, content performance, and recommendations. | x-engagement |
+| 99 | **[Brand Mention Monitor](usecases/brand-mention-monitor.md)** | Track mentions of your brand, product names, and keywords across X and Reddit. Alert on negative sentiment. | x-engagement, reddit-readonly, slack |
+| 100 | **[Hashtag Research Agent](usecases/hashtag-research-agent.md)** | For any topic, find the best-performing hashtags by platform with volume and competition data. | web-search, browser |
+| 101 | **[Engagement Response Bot](usecases/engagement-response-bot.md)** | Draft replies to comments and DMs based on tone guidelines. Queue for approval before sending. | x-engagement, instagram |
+| 102 | **[Social Media Analytics Reporter](usecases/social-media-analytics-reporter.md)** | Weekly cross-platform analytics: impressions, engagement rate, follower growth, top posts, and recommendations. | x-engagement, google-analytics, google-sheets |
+| 103 | **[Influencer Discovery Engine](usecases/influencer-discovery-engine.md)** | Find micro-influencers in your niche by analyzing follower quality, engagement rates, and content alignment. | web-search, browser, google-sheets |
+| 104 | **[Crisis Communication Monitor](usecases/crisis-communication-monitor.md)** | Real-time monitoring for viral negative mentions. Alert immediately with suggested response strategies. | x-engagement, reddit-readonly, slack |
+| 105 | **[LinkedIn Content Strategy](usecases/linkedin-content-strategy.md)** | Analyze your profile performance, research trending topics in your industry, and draft posts optimized for LinkedIn's algorithm. | linkedin, web-search |
+| 106 | **[Community Engagement Tracker](usecases/community-engagement-tracker.md)** | Track response times, comment volume, and sentiment across all community channels. Generate weekly engagement reports. | discord, slack, x-engagement |
+| 107 | **[Meme & Trend Curator](usecases/meme-trend-curator.md)** | Monitor meme pages and trending formats. Suggest brand-appropriate meme ideas with templates. | reddit-readonly, web-search |
+| 108 | **[Social Proof Aggregator](usecases/social-proof-aggregator.md)** | Collect testimonials, reviews, and positive mentions from all platforms into a single swipe file. | x-engagement, browser, google-sheets |
+| 109 | **[Content Plagiarism Checker](usecases/content-plagiarism-checker.md)** | Before posting, check if your content or hooks have been used by others in your niche. | web-search, browser |
+| 110 | **[Social Media Ad Copy Generator](usecases/social-media-ad-copy-generator.md)** | Given a product and target audience, generate multiple ad copy variants for A/B testing across platforms. | web-search, file-system |
 
 ---
 
@@ -253,20 +253,20 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 111 | **Research & Outline Assistant** | Given a topic, compile sources from the web, academic papers, and Reddit. Generate a structured outline with key points. | web-search, browser, reddit-readonly |
-| 112 | **SEO Blog Post Pipeline** | Research keywords → generate outline → write draft → optimize for SEO → format with H-tags and meta descriptions. | web-search, wordpress |
-| 113 | **Newsletter Curation Engine** | Aggregate articles from RSS feeds, score by relevance, add your commentary, and draft a weekly newsletter. | rss, gmail, substack |
-| 114 | **Writing Style Enforcer** | Analyze your published posts, learn your voice/style, and apply it consistently to all drafts. | memory, file-system |
-| 115 | **Fact-Checking Assistant** | Before publishing, verify all claims, statistics, and quotes against primary sources. Flag unverifiable statements. | web-search, browser |
-| 116 | **Ghost/WordPress Auto-Publisher** | When a draft is finalized in Notion/Google Docs, auto-format and publish to your CMS with proper categories and tags. | notion, wordpress, ghost |
-| 117 | **Email List Segmentation** | Analyze subscriber behavior, segment by engagement level, and suggest targeted content for each segment. | gmail, google-sheets |
-| 118 | **Guest Post Opportunity Finder** | Search for blogs in your niche accepting guest posts, compile submission guidelines, and draft pitches. | web-search, gmail, google-sheets |
-| 119 | **Article Performance Tracker** | Monitor pageviews, time on page, bounce rate, and social shares for each published piece. Send weekly rankings. | google-analytics, google-sheets |
-| 120 | **Repurposing Content Transformer** | Transform a blog post into a Twitter thread, LinkedIn article, Medium post, and email newsletter — each platform-optimized. | x-engagement, linkedin, gmail |
-| 121 | **Grammar & Readability Checker** | Run every draft through readability analysis, flag complex sentences, passive voice, and suggest improvements. | file-system, shell |
-| 122 | **Competitor Content Gap Analysis** | Analyze what topics competitors cover that you don't. Suggest article ideas to fill the gap. | web-search, browser, google-sheets |
-| 123 | **Internal Linking Suggester** | For new posts, suggest relevant internal links to your existing content to improve SEO. | web-search, browser |
-| 124 | **Book Writing Assistant** | Manage a long-form writing project: outline, chapter drafts, revision tracking, and word count goals. | file-system, notion, cron |
+| 111 | **[Research & Outline Assistant](usecases/research-outline-assistant.md)** | Given a topic, compile sources from the web, academic papers, and Reddit. Generate a structured outline with key points. | web-search, browser, reddit-readonly |
+| 112 | **[SEO Blog Post Pipeline](usecases/seo-blog-post-pipeline.md)** | Research keywords → generate outline → write draft → optimize for SEO → format with H-tags and meta descriptions. | web-search, wordpress |
+| 113 | **[Newsletter Curation Engine](usecases/newsletter-curation-engine.md)** | Aggregate articles from RSS feeds, score by relevance, add your commentary, and draft a weekly newsletter. | rss, gmail, substack |
+| 114 | **[Writing Style Enforcer](usecases/writing-style-enforcer.md)** | Analyze your published posts, learn your voice/style, and apply it consistently to all drafts. | memory, file-system |
+| 115 | **[Fact-Checking Assistant](usecases/fact-checking-assistant.md)** | Before publishing, verify all claims, statistics, and quotes against primary sources. Flag unverifiable statements. | web-search, browser |
+| 116 | **[Ghost/WordPress Auto-Publisher](usecases/ghost-wordpress-auto-publisher.md)** | When a draft is finalized in Notion/Google Docs, auto-format and publish to your CMS with proper categories and tags. | notion, wordpress, ghost |
+| 117 | **[Email List Segmentation](usecases/email-list-segmentation.md)** | Analyze subscriber behavior, segment by engagement level, and suggest targeted content for each segment. | gmail, google-sheets |
+| 118 | **[Guest Post Opportunity Finder](usecases/guest-post-opportunity-finder.md)** | Search for blogs in your niche accepting guest posts, compile submission guidelines, and draft pitches. | web-search, gmail, google-sheets |
+| 119 | **[Article Performance Tracker](usecases/article-performance-tracker.md)** | Monitor pageviews, time on page, bounce rate, and social shares for each published piece. Send weekly rankings. | google-analytics, google-sheets |
+| 120 | **[Repurposing Content Transformer](usecases/repurposing-content-transformer.md)** | Transform a blog post into a Twitter thread, LinkedIn article, Medium post, and email newsletter — each platform-optimized. | x-engagement, linkedin, gmail |
+| 121 | **[Grammar & Readability Checker](usecases/grammar-readability-checker.md)** | Run every draft through readability analysis, flag complex sentences, passive voice, and suggest improvements. | file-system, shell |
+| 122 | **[Competitor Content Gap Analysis](usecases/competitor-content-gap-analysis.md)** | Analyze what topics competitors cover that you don't. Suggest article ideas to fill the gap. | web-search, browser, google-sheets |
+| 123 | **[Internal Linking Suggester](usecases/internal-linking-suggester.md)** | For new posts, suggest relevant internal links to your existing content to improve SEO. | web-search, browser |
+| 124 | **[Book Writing Assistant](usecases/book-writing-assistant.md)** | Manage a long-form writing project: outline, chapter drafts, revision tracking, and word count goals. | file-system, notion, cron |
 
 ---
 
@@ -276,20 +276,20 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 125 | **Campaign Performance Dashboard** | Pull data from Google Ads, Meta Ads, email platforms, and analytics. Generate a unified daily performance report. | google-analytics, google-sheets, slack |
-| 126 | **A/B Test Results Analyzer** | Monitor running experiments, calculate statistical significance, and notify when a winner is declared. | google-analytics, slack |
-| 127 | **Landing Page Copy Generator** | Given a product and audience, generate multiple landing page variants with headlines, benefits, and CTAs. | web-search, file-system |
-| 128 | **Email Campaign Optimizer** | Analyze open rates, click rates, and conversions across campaigns. Suggest subject line and timing improvements. | gmail, google-sheets |
-| 129 | **Lead Scoring Automation** | Score incoming leads based on firmographics, behavior, and engagement data. Route hot leads to sales. | google-sheets, slack, gmail |
-| 130 | **UTM Parameter Manager** | Auto-generate UTM-tagged URLs for campaigns, track performance, and compile attribution reports. | google-sheets, google-analytics |
-| 131 | **Content Marketing ROI Calculator** | Track time/cost invested per content piece against traffic, leads, and revenue generated. | google-analytics, google-sheets |
-| 132 | **Webinar Follow-up Automation** | After a webinar, segment attendees by engagement, send personalized follow-ups, and track conversion to demo/sale. | zoom, gmail, google-sheets |
-| 133 | **Brand Voice Consistency Checker** | Analyze all outgoing marketing copy against your brand guidelines. Flag tone/voice inconsistencies. | memory, file-system |
-| 134 | **Customer Journey Mapper** | Track touchpoints across all channels, identify friction points, and visualize the customer journey. | google-analytics, intercom, google-sheets |
-| 135 | **PR Media List Builder** | Research journalists covering your industry, compile contact lists with recent articles, and draft personalized pitches. | web-search, browser, gmail, google-sheets |
-| 136 | **Product Launch Checklist Manager** | Template-driven launch playbook: auto-assign tasks, track completion, and send countdown updates. | notion, slack, google-calendar |
-| 137 | **Referral Program Tracker** | Monitor referral signups, attribute conversions, calculate payouts, and generate monthly referral reports. | stripe, google-sheets, gmail |
-| 138 | **Market Size Calculator** | Given an industry and geography, research and estimate TAM/SAM/SOM with data sources cited. | web-search, browser, google-sheets |
+| 125 | **[Campaign Performance Dashboard](usecases/campaign-performance-dashboard.md)** | Pull data from Google Ads, Meta Ads, email platforms, and analytics. Generate a unified daily performance report. | google-analytics, google-sheets, slack |
+| 126 | **[A/B Test Results Analyzer](usecases/ab-test-results-analyzer.md)** | Monitor running experiments, calculate statistical significance, and notify when a winner is declared. | google-analytics, slack |
+| 127 | **[Landing Page Copy Generator](usecases/landing-page-copy-generator.md)** | Given a product and audience, generate multiple landing page variants with headlines, benefits, and CTAs. | web-search, file-system |
+| 128 | **[Email Campaign Optimizer](usecases/email-campaign-optimizer.md)** | Analyze open rates, click rates, and conversions across campaigns. Suggest subject line and timing improvements. | gmail, google-sheets |
+| 129 | **[Lead Scoring Automation](usecases/lead-scoring-automation.md)** | Score incoming leads based on firmographics, behavior, and engagement data. Route hot leads to sales. | google-sheets, slack, gmail |
+| 130 | **[UTM Parameter Manager](usecases/utm-parameter-manager.md)** | Auto-generate UTM-tagged URLs for campaigns, track performance, and compile attribution reports. | google-sheets, google-analytics |
+| 131 | **[Content Marketing ROI Calculator](usecases/content-marketing-roi-calculator.md)** | Track time/cost invested per content piece against traffic, leads, and revenue generated. | google-analytics, google-sheets |
+| 132 | **[Webinar Follow-up Automation](usecases/webinar-follow-up-automation.md)** | After a webinar, segment attendees by engagement, send personalized follow-ups, and track conversion to demo/sale. | zoom, gmail, google-sheets |
+| 133 | **[Brand Voice Consistency Checker](usecases/brand-voice-consistency-checker.md)** | Analyze all outgoing marketing copy against your brand guidelines. Flag tone/voice inconsistencies. | memory, file-system |
+| 134 | **[Customer Journey Mapper](usecases/customer-journey-mapper.md)** | Track touchpoints across all channels, identify friction points, and visualize the customer journey. | google-analytics, intercom, google-sheets |
+| 135 | **[PR Media List Builder](usecases/pr-media-list-builder.md)** | Research journalists covering your industry, compile contact lists with recent articles, and draft personalized pitches. | web-search, browser, gmail, google-sheets |
+| 136 | **[Product Launch Checklist Manager](usecases/product-launch-checklist-manager.md)** | Template-driven launch playbook: auto-assign tasks, track completion, and send countdown updates. | notion, slack, google-calendar |
+| 137 | **[Referral Program Tracker](usecases/referral-program-tracker.md)** | Monitor referral signups, attribute conversions, calculate payouts, and generate monthly referral reports. | stripe, google-sheets, gmail |
+| 138 | **[Market Size Calculator](usecases/market-size-calculator.md)** | Given an industry and geography, research and estimate TAM/SAM/SOM with data sources cited. | web-search, browser, google-sheets |
 
 ---
 
@@ -299,18 +299,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 139 | **Personal CRM** | Auto-discover and track contacts from email and calendar. Query contacts with natural language. | gmail, google-calendar, memory |
-| 140 | **Lead Research Agent** | Given a company name, compile firmographics, tech stack, recent news, key contacts, and pain point analysis. | web-search, browser, linkedin |
-| 141 | **Cold Outreach Personalization** | Research each prospect, find common ground, and generate personalized email openers at scale. | web-search, linkedin, gmail |
-| 142 | **Deal Pipeline Tracker** | Manage deals through stages via chat. Auto-update CRM, set follow-up reminders, and forecast close dates. | notion, google-sheets, google-calendar |
-| 143 | **Meeting Prep Brief** | Before every sales call, compile prospect research, past interactions, open issues, and talking points. | google-calendar, gmail, memory |
-| 144 | **Proposal & Quote Generator** | Given deal parameters, auto-generate branded proposals with pricing tables, case studies, and terms. | file-system, google-sheets |
-| 145 | **Follow-Up Sequence Manager** | Automated follow-up emails at day 2, 5, 10 after initial outreach. Adjust messaging based on engagement. | gmail, cron |
-| 146 | **Win/Loss Analysis Reporter** | After each deal closes (won or lost), prompt for feedback, categorize reasons, and track patterns over time. | google-sheets, slack |
-| 147 | **Sales Call Summarizer** | Post-meeting, transcribe the recording, extract key decisions, next steps, and objections. Push to CRM. | whisper, notion, slack |
-| 148 | **Territory Mapping Assistant** | Segment prospects by geography, company size, and industry. Assign to reps with balanced workload. | google-sheets, google-maps |
-| 149 | **RFP Response Drafter** | Pull from your knowledge base to draft RFP responses, matching requirements to your capabilities. | memory, file-system, google-docs |
-| 150 | **Contract Renewal Tracker** | Monitor contract end dates, send renewal reminders 90/60/30 days out, and draft renewal proposals. | google-sheets, gmail, google-calendar |
+| 139 | **[Personal CRM](usecases/personal-crm.md)** | Auto-discover and track contacts from email and calendar. Query contacts with natural language. | gmail, google-calendar, memory |
+| 140 | **[Lead Research Agent](usecases/lead-research-agent.md)** | Given a company name, compile firmographics, tech stack, recent news, key contacts, and pain point analysis. | web-search, browser, linkedin |
+| 141 | **[Cold Outreach Personalization](usecases/cold-outreach-personalization.md)** | Research each prospect, find common ground, and generate personalized email openers at scale. | web-search, linkedin, gmail |
+| 142 | **[Deal Pipeline Tracker](usecases/deal-pipeline-tracker.md)** | Manage deals through stages via chat. Auto-update CRM, set follow-up reminders, and forecast close dates. | notion, google-sheets, google-calendar |
+| 143 | **[Meeting Prep Brief](usecases/meeting-prep-brief.md)** | Before every sales call, compile prospect research, past interactions, open issues, and talking points. | google-calendar, gmail, memory |
+| 144 | **[Proposal & Quote Generator](usecases/proposal-quote-generator.md)** | Given deal parameters, auto-generate branded proposals with pricing tables, case studies, and terms. | file-system, google-sheets |
+| 145 | **[Follow-Up Sequence Manager](usecases/follow-up-sequence-manager.md)** | Automated follow-up emails at day 2, 5, 10 after initial outreach. Adjust messaging based on engagement. | gmail, cron |
+| 146 | **[Win/Loss Analysis Reporter](usecases/win-loss-analysis-reporter.md)** | After each deal closes (won or lost), prompt for feedback, categorize reasons, and track patterns over time. | google-sheets, slack |
+| 147 | **[Sales Call Summarizer](usecases/sales-call-summarizer.md)** | Post-meeting, transcribe the recording, extract key decisions, next steps, and objections. Push to CRM. | whisper, notion, slack |
+| 148 | **[Territory Mapping Assistant](usecases/territory-mapping-assistant.md)** | Segment prospects by geography, company size, and industry. Assign to reps with balanced workload. | google-sheets, google-maps |
+| 149 | **[RFP Response Drafter](usecases/rfp-response-drafter.md)** | Pull from your knowledge base to draft RFP responses, matching requirements to your capabilities. | memory, file-system, google-docs |
+| 150 | **[Contract Renewal Tracker](usecases/contract-renewal-tracker.md)** | Monitor contract end dates, send renewal reminders 90/60/30 days out, and draft renewal proposals. | google-sheets, gmail, google-calendar |
 
 ---
 
@@ -320,18 +320,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 151 | **Multi-Channel AI Customer Service** | Unify WhatsApp, Instagram, Email, and Google Reviews in one AI-powered inbox with 24/7 auto-responses. | whatsapp, instagram, gmail |
-| 152 | **Ticket Triage & Classification** | Auto-categorize incoming tickets by product area, severity, and type. Route to the right agent/team. | intercom, slack, gmail |
-| 153 | **First Response Drafter** | For common queries, draft responses from your knowledge base. Queue for review or auto-send based on confidence. | intercom, memory |
-| 154 | **SLA Breach Alert System** | Track ticket response and resolution times. Alert when SLA is at risk of breaching. | intercom, slack, cron |
-| 155 | **Customer Satisfaction Pulse** | After ticket resolution, send CSAT surveys. Track trends by agent, category, and product area. | gmail, google-sheets |
-| 156 | **Knowledge Base Gap Finder** | Analyze incoming tickets to find questions not answered by your docs. Generate article drafts for missing topics. | intercom, notion |
-| 157 | **Escalation Path Manager** | Auto-escalate tickets based on severity, time open, or customer tier. Notify managers with context. | intercom, slack, pagerduty |
-| 158 | **Bug Report Compiler** | Extract reproducible bug reports from customer messages, format for engineering, and create GitHub issues. | intercom, github |
-| 159 | **Customer Communication Log** | Auto-log all customer touchpoints (emails, calls, chats) into a unified timeline in your CRM. | gmail, intercom, notion |
-| 160 | **Frequently Asked Questions Updater** | Weekly analysis of support tickets to identify emerging FAQs. Auto-update your public FAQ page. | intercom, notion, wordpress |
-| 161 | **Support Metrics Dashboard** | Track resolution time, first response time, ticket volume, CSAT, and NPS. Send weekly leadership reports. | intercom, google-sheets, slack |
-| 162 | **Proactive Outreach for At-Risk Customers** | Identify customers with recurring issues, draft proactive check-in messages, and schedule follow-ups. | intercom, gmail, google-calendar |
+| 151 | **[Multi-Channel AI Customer Service](usecases/multi-channel-customer-service.md)** | Unify WhatsApp, Instagram, Email, and Google Reviews in one AI-powered inbox with 24/7 auto-responses. | whatsapp, instagram, gmail |
+| 152 | **[Ticket Triage & Classification](usecases/ticket-triage-classification.md)** | Auto-categorize incoming tickets by product area, severity, and type. Route to the right agent/team. | intercom, slack, gmail |
+| 153 | **[First Response Drafter](usecases/first-response-drafter.md)** | For common queries, draft responses from your knowledge base. Queue for review or auto-send based on confidence. | intercom, memory |
+| 154 | **[SLA Breach Alert System](usecases/sla-breach-alert-system.md)** | Track ticket response and resolution times. Alert when SLA is at risk of breaching. | intercom, slack, cron |
+| 155 | **[Customer Satisfaction Pulse](usecases/customer-satisfaction-pulse.md)** | After ticket resolution, send CSAT surveys. Track trends by agent, category, and product area. | gmail, google-sheets |
+| 156 | **[Knowledge Base Gap Finder](usecases/knowledge-base-gap-finder.md)** | Analyze incoming tickets to find questions not answered by your docs. Generate article drafts for missing topics. | intercom, notion |
+| 157 | **[Escalation Path Manager](usecases/escalation-path-manager.md)** | Auto-escalate tickets based on severity, time open, or customer tier. Notify managers with context. | intercom, slack, pagerduty |
+| 158 | **[Bug Report Compiler](usecases/bug-report-compiler.md)** | Extract reproducible bug reports from customer messages, format for engineering, and create GitHub issues. | intercom, github |
+| 159 | **[Customer Communication Log](usecases/customer-communication-log.md)** | Auto-log all customer touchpoints (emails, calls, chats) into a unified timeline in your CRM. | gmail, intercom, notion |
+| 160 | **[Frequently Asked Questions Updater](usecases/faq-updater.md)** | Weekly analysis of support tickets to identify emerging FAQs. Auto-update your public FAQ page. | intercom, notion, wordpress |
+| 161 | **[Support Metrics Dashboard](usecases/support-metrics-dashboard.md)** | Track resolution time, first response time, ticket volume, CSAT, and NPS. Send weekly leadership reports. | intercom, google-sheets, slack |
+| 162 | **[Proactive Outreach for At-Risk Customers](usecases/proactive-at-risk-outreach.md)** | Identify customers with recurring issues, draft proactive check-in messages, and schedule follow-ups. | intercom, gmail, google-calendar |
 
 ---
 
@@ -341,20 +341,20 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 163 | **Product Description Generator** | Given product specs and photos, generate compelling descriptions optimized for SEO across marketplaces. | web-search, file-system |
-| 164 | **Inventory Alert System** | Monitor stock levels. Alert when products are running low or when it's time to reorder. | shopify, slack, gmail |
-| 165 | **Automated Package Tracking** | Pull tracking numbers from order confirmation emails. Send customer updates for "shipped," "out for delivery," and "delayed." | gmail, web-fetch, slack |
-| 166 | **Review Management Pipeline** | Aggregate reviews from Amazon, Shopify, and Google. Respond to negatives, thank positives, and flag patterns. | browser, gmail, google-sheets |
-| 167 | **Pricing Intelligence Monitor** | Track competitor pricing across Amazon, Walmart, and direct websites. Alert on significant price changes. | browser, web-search, google-sheets |
-| 168 | **Order Issue Resolution Bot** | Handle common order issues (wrong address, cancel request, return initiation) via WhatsApp/email with human escalation. | shopify, whatsapp, gmail |
-| 169 | **Product Photography Brief Generator** | Given your product line, generate photography shot lists, angles, and lifestyle context suggestions. | file-system, web-search |
-| 170 | **Seasonal Sales Campaign Planner** | Build campaign calendars for Black Friday, holidays, and seasonal events with content, email, and ad timelines. | notion, google-calendar, gmail |
-| 171 | **Supplier Communication Manager** | Draft POs, track order confirmations, manage payment schedules, and follow up on late shipments. | gmail, google-sheets |
-| 172 | **Customer Reorder Predictor** | Analyze purchase patterns, identify repeat buyers, and send personalized reorder reminders at optimal timing. | shopify, gmail, cron |
-| 173 | **Amazon Listing Optimizer** | Analyze listing performance, research keywords, suggest title and bullet point improvements for better ranking. | web-search, browser |
-| 174 | **Returns & Refund Processor** | Automate return authorization, refund processing, and replacement shipping workflows. | shopify, gmail |
-| 175 | **Cross-Sell Recommendation Engine** | Analyze purchase data, identify product pairings, and generate cross-sell email campaigns. | shopify, gmail, google-sheets |
-| 176 | **Marketplace Expansion Researcher** | Research new marketplaces (Etsy, eBay, Walmart) for your products. Compile listing requirements and fee structures. | web-search, browser, google-sheets |
+| 163 | **[Product Description Generator](usecases/product-description-generator.md)** | Given product specs and photos, generate compelling descriptions optimized for SEO across marketplaces. | web-search, file-system |
+| 164 | **[Inventory Alert System](usecases/inventory-alert-system.md)** | Monitor stock levels. Alert when products are running low or when it's time to reorder. | shopify, slack, gmail |
+| 165 | **[Automated Package Tracking](usecases/automated-package-tracking.md)** | Pull tracking numbers from order confirmation emails. Send customer updates for "shipped," "out for delivery," and "delayed." | gmail, web-fetch, slack |
+| 166 | **[Review Management Pipeline](usecases/review-management-pipeline.md)** | Aggregate reviews from Amazon, Shopify, and Google. Respond to negatives, thank positives, and flag patterns. | browser, gmail, google-sheets |
+| 167 | **[Pricing Intelligence Monitor](usecases/pricing-intelligence-monitor.md)** | Track competitor pricing across Amazon, Walmart, and direct websites. Alert on significant price changes. | browser, web-search, google-sheets |
+| 168 | **[Order Issue Resolution Bot](usecases/order-issue-resolution-bot.md)** | Handle common order issues (wrong address, cancel request, return initiation) via WhatsApp/email with human escalation. | shopify, whatsapp, gmail |
+| 169 | **[Product Photography Brief Generator](usecases/product-photography-brief-generator.md)** | Given your product line, generate photography shot lists, angles, and lifestyle context suggestions. | file-system, web-search |
+| 170 | **[Seasonal Sales Campaign Planner](usecases/seasonal-sales-campaign-planner.md)** | Build campaign calendars for Black Friday, holidays, and seasonal events with content, email, and ad timelines. | notion, google-calendar, gmail |
+| 171 | **[Supplier Communication Manager](usecases/supplier-communication-manager.md)** | Draft POs, track order confirmations, manage payment schedules, and follow up on late shipments. | gmail, google-sheets |
+| 172 | **[Customer Reorder Predictor](usecases/customer-reorder-predictor.md)** | Analyze purchase patterns, identify repeat buyers, and send personalized reorder reminders at optimal timing. | shopify, gmail, cron |
+| 173 | **[Amazon Listing Optimizer](usecases/amazon-listing-optimizer.md)** | Analyze listing performance, research keywords, suggest title and bullet point improvements for better ranking. | web-search, browser |
+| 174 | **[Returns & Refund Processor](usecases/returns-refund-processor.md)** | Automate return authorization, refund processing, and replacement shipping workflows. | shopify, gmail |
+| 175 | **[Cross-Sell Recommendation Engine](usecases/cross-sell-recommendation-engine.md)** | Analyze purchase data, identify product pairings, and generate cross-sell email campaigns. | shopify, gmail, google-sheets |
+| 176 | **[Marketplace Expansion Researcher](usecases/marketplace-expansion-researcher.md)** | Research new marketplaces (Etsy, eBay, Walmart) for your products. Compile listing requirements and fee structures. | web-search, browser, google-sheets |
 
 ---
 
@@ -364,18 +364,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 177 | **Client Project Dashboard** | Real-time status of all client projects: milestones, deadlines, pending feedback, and next actions. | notion, google-sheets, slack |
-| 178 | **Automated Invoice Generator** | At month-end, calculate hours/deliverables per client, generate invoices, and send via email. | google-sheets, gmail, stripe |
-| 179 | **Proposal Template Engine** | Given project type and client industry, generate customized proposals with scope, timeline, and pricing. | file-system, google-docs |
-| 180 | **Time Tracking Digest** | Summarize weekly hours by client and project. Flag underbilled work and projects approaching budget limits. | toggl, google-sheets |
-| 181 | **Client Communication Summarizer** | Compile all emails, Slack messages, and call notes with a client into a weekly digest with action items. | gmail, slack, memory |
-| 182 | **Contract Renewal Pipeline** | Track contract expiry dates, auto-send renewal discussions, and prepare updated scope proposals. | google-calendar, gmail |
-| 183 | **Portfolio Update Manager** | When a project is completed, auto-generate a case study draft with metrics, screenshots, and testimonials. | file-system, web-search |
-| 184 | **Freelancer Tax Estimator** | Track income by quarter, estimate tax obligations, and remind of quarterly payment deadlines. | google-sheets, google-calendar |
-| 185 | **Client Feedback Collector** | At project milestones, send feedback surveys, compile scores, and generate a project satisfaction report. | gmail, google-sheets |
-| 186 | **Scope Creep Detector** | Track requests against original scope. Alert when new asks exceed the SOW and suggest change order language. | slack, gmail, notion |
-| 187 | **Subcontractor Coordinator** | Manage subcontractors: assign tasks, track deliverables, collect invoices, and coordinate payments. | notion, gmail, google-sheets |
-| 188 | **Agency Capacity Planner** | Track team availability, upcoming project starts, and workload. Prevent overbooking and identify hiring needs. | notion, google-calendar, google-sheets |
+| 177 | **[Client Project Dashboard](usecases/client-project-dashboard.md)** | Real-time status of all client projects: milestones, deadlines, pending feedback, and next actions. | notion, google-sheets, slack |
+| 178 | **[Automated Invoice Generator](usecases/automated-invoice-generator.md)** | At month-end, calculate hours/deliverables per client, generate invoices, and send via email. | google-sheets, gmail, stripe |
+| 179 | **[Proposal Template Engine](usecases/proposal-template-engine.md)** | Given project type and client industry, generate customized proposals with scope, timeline, and pricing. | file-system, google-docs |
+| 180 | **[Time Tracking Digest](usecases/time-tracking-digest.md)** | Summarize weekly hours by client and project. Flag underbilled work and projects approaching budget limits. | toggl, google-sheets |
+| 181 | **[Client Communication Summarizer](usecases/client-communication-summarizer.md)** | Compile all emails, Slack messages, and call notes with a client into a weekly digest with action items. | gmail, slack, memory |
+| 182 | **[Contract Renewal Pipeline](usecases/contract-renewal-pipeline.md)** | Track contract expiry dates, auto-send renewal discussions, and prepare updated scope proposals. | google-calendar, gmail |
+| 183 | **[Portfolio Update Manager](usecases/portfolio-update-manager.md)** | When a project is completed, auto-generate a case study draft with metrics, screenshots, and testimonials. | file-system, web-search |
+| 184 | **[Freelancer Tax Estimator](usecases/freelancer-tax-estimator.md)** | Track income by quarter, estimate tax obligations, and remind of quarterly payment deadlines. | google-sheets, google-calendar |
+| 185 | **[Client Feedback Collector](usecases/client-feedback-collector.md)** | At project milestones, send feedback surveys, compile scores, and generate a project satisfaction report. | gmail, google-sheets |
+| 186 | **[Scope Creep Detector](usecases/scope-creep-detector.md)** | Track requests against original scope. Alert when new asks exceed the SOW and suggest change order language. | slack, gmail, notion |
+| 187 | **[Subcontractor Coordinator](usecases/subcontractor-coordinator.md)** | Manage subcontractors: assign tasks, track deliverables, collect invoices, and coordinate payments. | notion, gmail, google-sheets |
+| 188 | **[Agency Capacity Planner](usecases/agency-capacity-planner.md)** | Track team availability, upcoming project starts, and workload. Prevent overbooking and identify hiring needs. | notion, google-calendar, google-sheets |
 
 ---
 
@@ -385,20 +385,20 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 189 | **AI Earnings Tracker** | Track tech/AI earnings reports with automated previews, alerts, and detailed summaries. | web-search, google-sheets, slack |
-| 190 | **Stock Market Morning Brief** | Daily pre-market summary: futures, key movers, economic calendar events, and sector performance. | web-search, google-sheets, telegram |
-| 191 | **Expense Categorization Bot** | Read receipt emails, categorize expenses, and compile monthly reports for bookkeeping. | gmail, google-sheets |
-| 192 | **Invoice Payment Tracker** | Track outstanding invoices, send payment reminders at 7/14/30 days overdue, and compile aging reports. | gmail, google-sheets, cron |
-| 193 | **Tax Document Organizer** | Sort incoming tax documents (W-2s, 1099s, receipts) into categories, flag missing docs, and create a filing checklist. | gmail, google-drive, file-system |
-| 194 | **Cash Flow Forecaster** | Based on recurring revenue, known expenses, and payment terms, project cash flow 30/60/90 days out. | google-sheets, stripe |
-| 195 | **SEC Filing Watcher** | Monitor EDGAR for new filings from companies you track. Send summaries of 10-K, 10-Q, and 8-K filings. | [sec-filing-watcher](https://clawhub.ai) |
-| 196 | **Polymarket Autopilot** | Paper trading on prediction markets with backtesting, strategy analysis, and daily performance reports. | [polymarket-mcp](https://clawhub.ai) |
-| 197 | **Budget vs Actual Reporter** | Compare monthly actuals against budget line items. Flag overruns and provide variance explanations. | google-sheets, slack |
-| 198 | **Subscription Audit Tool** | Scan email for all active subscriptions, compile a list with costs, and identify unused services to cancel. | gmail, google-sheets |
-| 199 | **Financial KPI Calculator** | Compute key ratios (gross margin, LTV:CAC, payback period, rule of 40) from your data and track trends. | stripe, google-sheets |
-| 200 | **Accounts Receivable Manager** | Track all outstanding invoices, automate reminders, and flag chronically late payers. | gmail, google-sheets, cron |
-| 201 | **Crypto Portfolio Tracker** | Monitor crypto holdings across wallets/exchanges. Track PnL, alerts for price moves, and tax implications. | web-fetch, google-sheets |
-| 202 | **Real-Time FX Rate Monitor** | Track currency pairs relevant to your business. Alert on significant moves that affect international payments. | web-fetch, slack |
+| 189 | **[AI Earnings Tracker](usecases/earnings-tracker.md)** | Track tech/AI earnings reports with automated previews, alerts, and detailed summaries. | web-search, google-sheets, slack |
+| 190 | **[Stock Market Morning Brief](usecases/stock-market-morning-brief.md)** | Daily pre-market summary: futures, key movers, economic calendar events, and sector performance. | web-search, google-sheets, telegram |
+| 191 | **[Expense Categorization Bot](usecases/expense-categorization-bot.md)** | Read receipt emails, categorize expenses, and compile monthly reports for bookkeeping. | gmail, google-sheets |
+| 192 | **[Invoice Payment Tracker](usecases/invoice-payment-tracker.md)** | Track outstanding invoices, send payment reminders at 7/14/30 days overdue, and compile aging reports. | gmail, google-sheets, cron |
+| 193 | **[Tax Document Organizer](usecases/tax-document-organizer.md)** | Sort incoming tax documents (W-2s, 1099s, receipts) into categories, flag missing docs, and create a filing checklist. | gmail, google-drive, file-system |
+| 194 | **[Cash Flow Forecaster](usecases/cash-flow-forecaster.md)** | Based on recurring revenue, known expenses, and payment terms, project cash flow 30/60/90 days out. | google-sheets, stripe |
+| 195 | **[SEC Filing Watcher](usecases/sec-filing-watcher.md)** | Monitor EDGAR for new filings from companies you track. Send summaries of 10-K, 10-Q, and 8-K filings. | [sec-filing-watcher](https://clawhub.ai) |
+| 196 | **[Polymarket Autopilot](usecases/polymarket-autopilot.md)** | Paper trading on prediction markets with backtesting, strategy analysis, and daily performance reports. | [polymarket-mcp](https://clawhub.ai) |
+| 197 | **[Budget vs Actual Reporter](usecases/budget-vs-actual-reporter.md)** | Compare monthly actuals against budget line items. Flag overruns and provide variance explanations. | google-sheets, slack |
+| 198 | **[Subscription Audit Tool](usecases/subscription-audit-tool.md)** | Scan email for all active subscriptions, compile a list with costs, and identify unused services to cancel. | gmail, google-sheets |
+| 199 | **[Financial KPI Calculator](usecases/financial-kpi-calculator.md)** | Compute key ratios (gross margin, LTV:CAC, payback period, rule of 40) from your data and track trends. | stripe, google-sheets |
+| 200 | **[Accounts Receivable Manager](usecases/accounts-receivable-manager.md)** | Track all outstanding invoices, automate reminders, and flag chronically late payers. | gmail, google-sheets, cron |
+| 201 | **[Crypto Portfolio Tracker](usecases/crypto-portfolio-tracker.md)** | Monitor crypto holdings across wallets/exchanges. Track PnL, alerts for price moves, and tax implications. | web-fetch, google-sheets |
+| 202 | **[Real-Time FX Rate Monitor](usecases/fx-rate-monitor.md)** | Track currency pairs relevant to your business. Alert on significant moves that affect international payments. | web-fetch, slack |
 
 ---
 
@@ -408,16 +408,16 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 203 | **Contract Review Assistant** | Analyze contracts for risky clauses, missing terms, non-standard language, and compare against your templates. | file-system, memory |
-| 204 | **Legal Deadline Tracker** | Monitor filing deadlines, statute of limitations dates, and hearing schedules. Send multi-stage reminders. | google-calendar, gmail, cron |
-| 205 | **Case Law Research Agent** | Given a legal question, search case databases, compile relevant precedents, and summarize holdings. | web-search, browser |
-| 206 | **Document Version Controller** | Track all versions of legal documents, highlight changes between versions, and maintain audit trails. | google-drive, file-system |
-| 207 | **Client Intake Form Processor** | Process incoming intake forms, extract key information, check for conflicts, and create a client file. | gmail, google-sheets, google-drive |
-| 208 | **Regulatory Change Monitor** | Track changes to regulations in specific areas (GDPR, HIPAA, etc.). Alert on new rules that affect your clients. | web-search, browser, gmail |
-| 209 | **Billable Hours Logger** | Track time spent per matter from emails and calendar events. Generate billing reports with narrative descriptions. | gmail, google-calendar, google-sheets |
-| 210 | **Legal Template Library Manager** | Maintain and version a library of templates (NDAs, MSAs, SOWs). Auto-fill standard fields from client data. | file-system, google-drive |
-| 211 | **Compliance Checklist Generator** | Given an industry and jurisdiction, generate a compliance requirements checklist with deadlines and responsibilities. | web-search, google-sheets |
-| 212 | **IP Portfolio Tracker** | Track patent/trademark filing dates, renewal deadlines, and maintenance fee schedules across your portfolio. | google-sheets, google-calendar, cron |
+| 203 | **[Contract Review Assistant](usecases/contract-review-assistant.md)** | Analyze contracts for risky clauses, missing terms, non-standard language, and compare against your templates. | file-system, memory |
+| 204 | **[Legal Deadline Tracker](usecases/legal-deadline-tracker.md)** | Monitor filing deadlines, statute of limitations dates, and hearing schedules. Send multi-stage reminders. | google-calendar, gmail, cron |
+| 205 | **[Case Law Research Agent](usecases/case-law-research-agent.md)** | Given a legal question, search case databases, compile relevant precedents, and summarize holdings. | web-search, browser |
+| 206 | **[Document Version Controller](usecases/document-version-controller.md)** | Track all versions of legal documents, highlight changes between versions, and maintain audit trails. | google-drive, file-system |
+| 207 | **[Client Intake Form Processor](usecases/client-intake-form-processor.md)** | Process incoming intake forms, extract key information, check for conflicts, and create a client file. | gmail, google-sheets, google-drive |
+| 208 | **[Regulatory Change Monitor](usecases/regulatory-change-monitor.md)** | Track changes to regulations in specific areas (GDPR, HIPAA, etc.). Alert on new rules that affect your clients. | web-search, browser, gmail |
+| 209 | **[Billable Hours Logger](usecases/billable-hours-logger.md)** | Track time spent per matter from emails and calendar events. Generate billing reports with narrative descriptions. | gmail, google-calendar, google-sheets |
+| 210 | **[Legal Template Library Manager](usecases/legal-template-library-manager.md)** | Maintain and version a library of templates (NDAs, MSAs, SOWs). Auto-fill standard fields from client data. | file-system, google-drive |
+| 211 | **[Compliance Checklist Generator](usecases/compliance-checklist-generator.md)** | Given an industry and jurisdiction, generate a compliance requirements checklist with deadlines and responsibilities. | web-search, google-sheets |
+| 212 | **[IP Portfolio Tracker](usecases/ip-portfolio-tracker.md)** | Track patent/trademark filing dates, renewal deadlines, and maintenance fee schedules across your portfolio. | google-sheets, google-calendar, cron |
 
 ---
 
@@ -427,18 +427,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 213 | **Health & Symptom Tracker** | Track food intake and symptoms to identify triggers, with scheduled check-in reminders. | memory, cron, telegram |
-| 214 | **Medication Reminder System** | Scheduled reminders for medications with confirmation tracking and refill alerts when running low. | cron, telegram, memory |
-| 215 | **Fitness Data Aggregator** | Combine data from WHOOP, Oura, Apple Health, and Strava into a unified daily wellness summary. | webhooks, google-sheets |
-| 216 | **Appointment Scheduler & Reminder** | Manage healthcare appointments: schedule, send reminders, prep questions for the doctor, and track follow-ups. | google-calendar, gmail, telegram |
-| 217 | **Sleep Pattern Analyzer** | Track sleep data over time, identify patterns (caffeine, screen time, exercise), and suggest improvements. | webhooks, google-sheets, memory |
-| 218 | **Custom Guided Meditation Generator** | Combine fitness data (recovery/strain levels) with AI-generated personalized meditation scripts and audio. | webhooks, elevenlabs |
-| 219 | **Mental Health Check-In Bot** | Daily mood check-ins via Telegram with journaling prompts. Track patterns and suggest professional resources when needed. | telegram, memory, cron |
-| 220 | **Water Intake Tracker** | Simple message-based hydration tracking with daily goal progress and reminders throughout the day. | telegram, memory, cron |
-| 221 | **Calorie & Macro Logger** | Text what you ate, and OpenClaw estimates calories and macros. Compile daily/weekly nutrition reports. | memory, google-sheets |
-| 222 | **Exercise Routine Generator** | Based on your fitness level, equipment, and goals, generate and rotate workout plans with progression tracking. | memory, google-sheets |
-| 223 | **Healthcare Cost Tracker** | Log medical expenses, track insurance claims, and compile end-of-year medical expense summaries for tax filing. | gmail, google-sheets |
-| 224 | **Chronic Condition Journal** | Track symptoms, medications, lifestyle factors, and correlations over time for chronic health conditions. | memory, google-sheets |
+| 213 | **[Health & Symptom Tracker](usecases/health-symptom-tracker.md)** | Track food intake and symptoms to identify triggers, with scheduled check-in reminders. | memory, cron, telegram |
+| 214 | **[Medication Reminder System](usecases/medication-reminder-system.md)** | Scheduled reminders for medications with confirmation tracking and refill alerts when running low. | cron, telegram, memory |
+| 215 | **[Fitness Data Aggregator](usecases/fitness-data-aggregator.md)** | Combine data from WHOOP, Oura, Apple Health, and Strava into a unified daily wellness summary. | webhooks, google-sheets |
+| 216 | **[Appointment Scheduler & Reminder](usecases/appointment-scheduler-reminder.md)** | Manage healthcare appointments: schedule, send reminders, prep questions for the doctor, and track follow-ups. | google-calendar, gmail, telegram |
+| 217 | **[Sleep Pattern Analyzer](usecases/sleep-pattern-analyzer.md)** | Track sleep data over time, identify patterns (caffeine, screen time, exercise), and suggest improvements. | webhooks, google-sheets, memory |
+| 218 | **[Custom Guided Meditation Generator](usecases/custom-guided-meditation-generator.md)** | Combine fitness data (recovery/strain levels) with AI-generated personalized meditation scripts and audio. | webhooks, elevenlabs |
+| 219 | **[Mental Health Check-In Bot](usecases/mental-health-check-in-bot.md)** | Daily mood check-ins via Telegram with journaling prompts. Track patterns and suggest professional resources when needed. | telegram, memory, cron |
+| 220 | **[Water Intake Tracker](usecases/water-intake-tracker.md)** | Simple message-based hydration tracking with daily goal progress and reminders throughout the day. | telegram, memory, cron |
+| 221 | **[Calorie & Macro Logger](usecases/calorie-macro-logger.md)** | Text what you ate, and OpenClaw estimates calories and macros. Compile daily/weekly nutrition reports. | memory, google-sheets |
+| 222 | **[Exercise Routine Generator](usecases/exercise-routine-generator.md)** | Based on your fitness level, equipment, and goals, generate and rotate workout plans with progression tracking. | memory, google-sheets |
+| 223 | **[Healthcare Cost Tracker](usecases/healthcare-cost-tracker.md)** | Log medical expenses, track insurance claims, and compile end-of-year medical expense summaries for tax filing. | gmail, google-sheets |
+| 224 | **[Chronic Condition Journal](usecases/chronic-condition-journal.md)** | Track symptoms, medications, lifestyle factors, and correlations over time for chronic health conditions. | memory, google-sheets |
 
 ---
 
@@ -448,16 +448,16 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 225 | **Lead Follow-Up Automation** | Auto-send follow-ups to open house attendees, website inquiries, and referrals on a scheduled cadence. | gmail, google-sheets, cron |
-| 226 | **Property Market Research Agent** | Given an address or neighborhood, compile comparable sales, market trends, price per sq ft, and days on market. | web-search, browser, google-sheets |
-| 227 | **Transaction Checklist Manager** | Template-driven checklists for buyers/sellers from contract to close. Track deadlines and send reminders. | notion, google-calendar, gmail |
-| 228 | **Open House Feedback Compiler** | After showings, collect buyer agent feedback, compile summaries, and send reports to sellers. | gmail, google-sheets |
-| 229 | **Rental Property Manager** | Track tenant payments, maintenance requests, lease expiration dates, and vacancy periods across properties. | google-sheets, gmail, google-calendar |
-| 230 | **Property Listing Description Writer** | Given property features and photos, generate compelling MLS descriptions with local area highlights. | web-search, file-system |
-| 231 | **Mortgage Rate Monitor** | Track mortgage rates daily, alert when rates drop below client-specified thresholds. | web-search, telegram, cron |
-| 232 | **Client Property Match Alert** | When new listings match a client's criteria, auto-send personalized alerts with property details and your commentary. | web-search, gmail |
-| 233 | **Neighborhood Report Generator** | Compile school ratings, crime stats, walkability scores, amenities, and demographic data for any address. | web-search, browser, google-sheets |
-| 234 | **Real Estate CRM Updater** | Auto-log property showings, client interactions, and deal stage changes from email and calendar activity. | gmail, google-calendar, google-sheets |
+| 225 | **[Lead Follow-Up Automation](usecases/lead-follow-up-automation.md)** | Auto-send follow-ups to open house attendees, website inquiries, and referrals on a scheduled cadence. | gmail, google-sheets, cron |
+| 226 | **[Property Market Research Agent](usecases/property-market-research-agent.md)** | Given an address or neighborhood, compile comparable sales, market trends, price per sq ft, and days on market. | web-search, browser, google-sheets |
+| 227 | **[Transaction Checklist Manager](usecases/transaction-checklist-manager.md)** | Template-driven checklists for buyers/sellers from contract to close. Track deadlines and send reminders. | notion, google-calendar, gmail |
+| 228 | **[Open House Feedback Compiler](usecases/open-house-feedback-compiler.md)** | After showings, collect buyer agent feedback, compile summaries, and send reports to sellers. | gmail, google-sheets |
+| 229 | **[Rental Property Manager](usecases/rental-property-manager.md)** | Track tenant payments, maintenance requests, lease expiration dates, and vacancy periods across properties. | google-sheets, gmail, google-calendar |
+| 230 | **[Property Listing Description Writer](usecases/property-listing-description-writer.md)** | Given property features and photos, generate compelling MLS descriptions with local area highlights. | web-search, file-system |
+| 231 | **[Mortgage Rate Monitor](usecases/mortgage-rate-monitor.md)** | Track mortgage rates daily, alert when rates drop below client-specified thresholds. | web-search, telegram, cron |
+| 232 | **[Client Property Match Alert](usecases/client-property-match-alert.md)** | When new listings match a client's criteria, auto-send personalized alerts with property details and your commentary. | web-search, gmail |
+| 233 | **[Neighborhood Report Generator](usecases/neighborhood-report-generator.md)** | Compile school ratings, crime stats, walkability scores, amenities, and demographic data for any address. | web-search, browser, google-sheets |
+| 234 | **[Real Estate CRM Updater](usecases/real-estate-crm-updater.md)** | Auto-log property showings, client interactions, and deal stage changes from email and calendar activity. | gmail, google-calendar, google-sheets |
 
 ---
 
@@ -467,18 +467,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 235 | **Resume Screening Agent** | Filter incoming applications against job requirements. Score candidates and surface top matches for review. | gmail, google-sheets |
-| 236 | **Interview Scheduling Coordinator** | Manage multi-stage interview scheduling across interviewers, send calendar invites, and follow up on no-shows. | google-calendar, gmail |
-| 237 | **Employee Onboarding Sequence** | New hire triggers: account provisioning, welcome email, equipment order, manager notification, and training schedule. | gmail, slack, google-calendar, notion |
-| 238 | **PTO Balance Tracker** | Track vacation days, sick leave, and personal time for the team. Send approvals and balance updates. | google-sheets, slack |
-| 239 | **Employee Anniversary & Birthday Bot** | Track dates, send Slack celebrations, and remind managers to write personal notes. | google-sheets, slack, cron |
-| 240 | **Job Description Generator** | Given a role title and responsibilities, generate comprehensive JDs with inclusive language and SEO optimization. | web-search, file-system |
-| 241 | **Exit Interview Analyzer** | Compile exit interview responses, categorize feedback by theme, and identify retention risk patterns. | google-sheets, slack |
-| 242 | **Referral Bonus Tracker** | Track employee referrals through the pipeline, notify referrers of progress, and process bonus payments at hire. | google-sheets, gmail, slack |
-| 243 | **Engagement Survey Automator** | Distribute quarterly engagement surveys, analyze results, compare with previous quarters, and generate insights. | gmail, google-sheets, slack |
-| 244 | **Offboarding Checklist Runner** | When someone leaves: revoke access, collect equipment, process final pay, transfer knowledge, and notify stakeholders. | gmail, slack, google-calendar |
-| 245 | **Recruiting Pipeline Dashboard** | Track open roles, applicant counts per stage, time-to-hire, and source effectiveness across all positions. | google-sheets, slack |
-| 246 | **Skills Gap Analyzer** | Survey team capabilities, compare against desired competencies, and recommend training programs to close gaps. | google-sheets, web-search |
+| 235 | **[Resume Screening Agent](usecases/resume-screening-agent.md)** | Filter incoming applications against job requirements. Score candidates and surface top matches for review. | gmail, google-sheets |
+| 236 | **[Interview Scheduling Coordinator](usecases/interview-scheduling-coordinator.md)** | Manage multi-stage interview scheduling across interviewers, send calendar invites, and follow up on no-shows. | google-calendar, gmail |
+| 237 | **[Employee Onboarding Sequence](usecases/employee-onboarding-sequence.md)** | New hire triggers: account provisioning, welcome email, equipment order, manager notification, and training schedule. | gmail, slack, google-calendar, notion |
+| 238 | **[PTO Balance Tracker](usecases/pto-balance-tracker.md)** | Track vacation days, sick leave, and personal time for the team. Send approvals and balance updates. | google-sheets, slack |
+| 239 | **[Employee Anniversary & Birthday Bot](usecases/employee-anniversary-birthday-bot.md)** | Track dates, send Slack celebrations, and remind managers to write personal notes. | google-sheets, slack, cron |
+| 240 | **[Job Description Generator](usecases/job-description-generator.md)** | Given a role title and responsibilities, generate comprehensive JDs with inclusive language and SEO optimization. | web-search, file-system |
+| 241 | **[Exit Interview Analyzer](usecases/exit-interview-analyzer.md)** | Compile exit interview responses, categorize feedback by theme, and identify retention risk patterns. | google-sheets, slack |
+| 242 | **[Referral Bonus Tracker](usecases/referral-bonus-tracker.md)** | Track employee referrals through the pipeline, notify referrers of progress, and process bonus payments at hire. | google-sheets, gmail, slack |
+| 243 | **[Engagement Survey Automator](usecases/engagement-survey-automator.md)** | Distribute quarterly engagement surveys, analyze results, compare with previous quarters, and generate insights. | gmail, google-sheets, slack |
+| 244 | **[Offboarding Checklist Runner](usecases/offboarding-checklist-runner.md)** | When someone leaves: revoke access, collect equipment, process final pay, transfer knowledge, and notify stakeholders. | gmail, slack, google-calendar |
+| 245 | **[Recruiting Pipeline Dashboard](usecases/recruiting-pipeline-dashboard.md)** | Track open roles, applicant counts per stage, time-to-hire, and source effectiveness across all positions. | google-sheets, slack |
+| 246 | **[Skills Gap Analyzer](usecases/skills-gap-analyzer.md)** | Survey team capabilities, compare against desired competencies, and recommend training programs to close gaps. | google-sheets, web-search |
 
 ---
 
@@ -488,20 +488,20 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 247 | **Personal Knowledge Base (RAG)** | Build a searchable knowledge base by dropping URLs, tweets, and articles into chat. Query anytime with natural language. | memory, web-search |
-| 248 | **Research Paper Summarizer** | Given a PDF or arXiv link, generate structured summaries with key findings, methodology, and limitations. | browser, file-system |
-| 249 | **Citation Manager** | Collect papers, auto-format citations (APA, MLA, Chicago), and generate bibliographies for your projects. | web-search, file-system |
-| 250 | **Semantic Memory Search** | Vector-powered semantic search across your markdown memory files with hybrid retrieval and auto-sync. | [semantic-memory](https://clawhub.ai) |
-| 251 | **Study Schedule Generator** | Given your syllabus and exam dates, create an optimized study plan with spaced repetition reminders. | google-calendar, cron, telegram |
-| 252 | **Flashcard Creator** | From lecture notes or textbook chapters, generate flashcards in Anki-compatible format for active recall practice. | file-system, memory |
-| 253 | **Assignment Deadline Tracker** | Aggregate deadlines from LMS (Canvas, Moodle), prioritize by due date and weight, and send daily task lists. | browser, google-calendar, telegram |
-| 254 | **Lab Notebook Digitizer** | Transcribe handwritten lab notes from photos, organize by experiment, and maintain a searchable digital log. | file-system, memory |
-| 255 | **Literature Review Assistant** | For a research question, find relevant papers, categorize by methodology, and identify research gaps. | web-search, browser, google-sheets |
-| 256 | **Conference & Workshop Tracker** | Monitor call-for-papers in your field, track submission deadlines, and prepare submission checklists. | web-search, google-calendar |
-| 257 | **Thesis Progress Tracker** | Track word count, chapters completed, advisor feedback, and deadlines. Weekly progress reports via Telegram. | file-system, telegram, cron |
-| 258 | **arXiv Paper Digest** | Daily digest of new papers in your research area from arXiv, scored by relevance to your interests. | [arxiv-search-collector](https://clawhub.ai), telegram |
-| 259 | **Study Group Coordinator** | Schedule group sessions, share materials, compile notes, and track participation across study group members. | google-calendar, discord, google-drive |
-| 260 | **Grant Application Tracker** | Track grant deadlines, eligibility requirements, submission status, and compile required documents. | web-search, google-calendar, google-drive |
+| 247 | **[Personal Knowledge Base (RAG)](usecases/knowledge-base-rag.md)** | Build a searchable knowledge base by dropping URLs, tweets, and articles into chat. Query anytime with natural language. | memory, web-search |
+| 248 | **[Research Paper Summarizer](usecases/research-paper-summarizer.md)** | Given a PDF or arXiv link, generate structured summaries with key findings, methodology, and limitations. | browser, file-system |
+| 249 | **[Citation Manager](usecases/citation-manager.md)** | Collect papers, auto-format citations (APA, MLA, Chicago), and generate bibliographies for your projects. | web-search, file-system |
+| 250 | **[Semantic Memory Search](usecases/semantic-memory-search.md)** | Vector-powered semantic search across your markdown memory files with hybrid retrieval and auto-sync. | [semantic-memory](https://clawhub.ai) |
+| 251 | **[Study Schedule Generator](usecases/study-schedule-generator.md)** | Given your syllabus and exam dates, create an optimized study plan with spaced repetition reminders. | google-calendar, cron, telegram |
+| 252 | **[Flashcard Creator](usecases/flashcard-creator.md)** | From lecture notes or textbook chapters, generate flashcards in Anki-compatible format for active recall practice. | file-system, memory |
+| 253 | **[Assignment Deadline Tracker](usecases/assignment-deadline-tracker.md)** | Aggregate deadlines from LMS (Canvas, Moodle), prioritize by due date and weight, and send daily task lists. | browser, google-calendar, telegram |
+| 254 | **[Lab Notebook Digitizer](usecases/lab-notebook-digitizer.md)** | Transcribe handwritten lab notes from photos, organize by experiment, and maintain a searchable digital log. | file-system, memory |
+| 255 | **[Literature Review Assistant](usecases/literature-review-assistant.md)** | For a research question, find relevant papers, categorize by methodology, and identify research gaps. | web-search, browser, google-sheets |
+| 256 | **[Conference & Workshop Tracker](usecases/conference-workshop-tracker.md)** | Monitor call-for-papers in your field, track submission deadlines, and prepare submission checklists. | web-search, google-calendar |
+| 257 | **[Thesis Progress Tracker](usecases/thesis-progress-tracker.md)** | Track word count, chapters completed, advisor feedback, and deadlines. Weekly progress reports via Telegram. | file-system, telegram, cron |
+| 258 | **[arXiv Paper Digest](usecases/arxiv-paper-digest.md)** | Daily digest of new papers in your research area from arXiv, scored by relevance to your interests. | [arxiv-search-collector](https://clawhub.ai), telegram |
+| 259 | **[Study Group Coordinator](usecases/study-group-coordinator.md)** | Schedule group sessions, share materials, compile notes, and track participation across study group members. | google-calendar, discord, google-drive |
+| 260 | **[Grant Application Tracker](usecases/grant-application-tracker-np.md)** | Track grant deadlines, eligibility requirements, submission status, and compile required documents. | web-search, google-calendar, google-drive |
 
 ---
 
@@ -511,16 +511,16 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 261 | **Lesson Plan Generator** | Given a topic, grade level, and standards, generate detailed lesson plans with activities and assessments. | web-search, file-system |
-| 262 | **Student Communication Bot** | Send assignment reminders, schedule announcements, and compile FAQ responses for common student questions. | gmail, discord, cron |
-| 263 | **Parent Update Newsletter** | Weekly auto-compiled classroom newsletter with upcoming events, homework summary, and student highlights. | gmail, google-sheets |
-| 264 | **Assignment Rubric Builder** | Create detailed grading rubrics with criteria, point allocations, and exemplars for any assignment type. | file-system, google-sheets |
-| 265 | **Attendance Tracker & Reporter** | Log attendance from messages, flag chronic absences, and generate reports for administration. | google-sheets, gmail |
-| 266 | **Educational Game Developer** | Autonomous game dev pipeline: from topic selection to implementation, testing, and documentation. | github, shell, codex |
-| 267 | **Professional Development Logger** | Track workshop hours, certifications, and training completions. Compile annual PD reports for evaluations. | google-sheets, google-calendar |
-| 268 | **Field Trip Coordinator** | Permission slip tracking, transportation logistics, chaperone assignments, and emergency contact compilation. | gmail, google-sheets, google-calendar |
-| 269 | **Differentiated Instruction Planner** | Generate modified lesson materials for different learning levels from a single lesson plan. | file-system, web-search |
-| 270 | **Quiz & Assessment Generator** | Create quizzes from curriculum standards with multiple question types, answer keys, and difficulty levels. | file-system, google-sheets |
+| 261 | **[Lesson Plan Generator](usecases/lesson-plan-generator.md)** | Given a topic, grade level, and standards, generate detailed lesson plans with activities and assessments. | web-search, file-system |
+| 262 | **[Student Communication Bot](usecases/student-communication-bot.md)** | Send assignment reminders, schedule announcements, and compile FAQ responses for common student questions. | gmail, discord, cron |
+| 263 | **[Parent Update Newsletter](usecases/parent-update-newsletter.md)** | Weekly auto-compiled classroom newsletter with upcoming events, homework summary, and student highlights. | gmail, google-sheets |
+| 264 | **[Assignment Rubric Builder](usecases/assignment-rubric-builder.md)** | Create detailed grading rubrics with criteria, point allocations, and exemplars for any assignment type. | file-system, google-sheets |
+| 265 | **[Attendance Tracker & Reporter](usecases/attendance-tracker-reporter.md)** | Log attendance from messages, flag chronic absences, and generate reports for administration. | google-sheets, gmail |
+| 266 | **[Educational Game Developer](usecases/educational-game-developer.md)** | Autonomous game dev pipeline: from topic selection to implementation, testing, and documentation. | github, shell, codex |
+| 267 | **[Professional Development Logger](usecases/professional-development-logger.md)** | Track workshop hours, certifications, and training completions. Compile annual PD reports for evaluations. | google-sheets, google-calendar |
+| 268 | **[Field Trip Coordinator](usecases/field-trip-coordinator.md)** | Permission slip tracking, transportation logistics, chaperone assignments, and emergency contact compilation. | gmail, google-sheets, google-calendar |
+| 269 | **[Differentiated Instruction Planner](usecases/differentiated-instruction-planner.md)** | Generate modified lesson materials for different learning levels from a single lesson plan. | file-system, web-search |
+| 270 | **[Quiz & Assessment Generator](usecases/quiz-assessment-generator.md)** | Create quizzes from curriculum standards with multiple question types, answer keys, and difficulty levels. | file-system, google-sheets |
 
 ---
 
@@ -530,18 +530,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 271 | **Dynamic Dashboard Builder** | Real-time dashboard with parallel data fetching from APIs, databases, and social media. | web-fetch, google-sheets, shell |
-| 272 | **Automated Report Generator** | Pull data from multiple sources, run analyses, generate visualizations, and compile reports on schedule. | google-sheets, python, shell, cron |
-| 273 | **Data Quality Monitor** | Continuous checks for null values, duplicates, outliers, and schema violations across data pipelines. | shell, sql, slack |
-| 274 | **SQL Query Assistant** | Describe what data you need in natural language. OpenClaw writes, optimizes, and runs the SQL query. | sql, shell |
-| 275 | **ETL Pipeline Monitor** | Watch ETL jobs for failures, data volume anomalies, and processing time regressions. Alert on issues. | shell, slack, cron |
-| 276 | **A/B Test Statistical Calculator** | Given experiment data, calculate significance, confidence intervals, effect sizes, and recommend decisions. | google-sheets, shell |
-| 277 | **Data Catalog Builder** | Scan databases and data warehouses, document tables, columns, relationships, and generate a searchable catalog. | sql, file-system |
-| 278 | **ML Model Performance Monitor** | Track model metrics (accuracy, precision, recall) over time. Alert on drift and performance degradation. | shell, google-sheets, slack |
-| 279 | **Customer Segmentation Runner** | Run clustering analysis on customer data, generate segment profiles, and suggest targeted marketing strategies. | google-sheets, python |
-| 280 | **Anomaly Detection Alert System** | Monitor business metrics for anomalies (spike in errors, drop in conversions) and alert with context. | google-analytics, slack |
-| 281 | **Data Dictionary Generator** | Automatically document database schemas with column descriptions, data types, and business context. | sql, file-system |
-| 282 | **KPI Scorecard Generator** | Weekly automated scorecard with all key metrics, traffic lights, and trend indicators across the business. | google-sheets, google-analytics, slack |
+| 271 | **[Dynamic Dashboard Builder](usecases/dynamic-dashboard.md)** | Real-time dashboard with parallel data fetching from APIs, databases, and social media. | web-fetch, google-sheets, shell |
+| 272 | **[Automated Report Generator](usecases/automated-report-generator.md)** | Pull data from multiple sources, run analyses, generate visualizations, and compile reports on schedule. | google-sheets, python, shell, cron |
+| 273 | **[Data Quality Monitor](usecases/data-quality-monitor.md)** | Continuous checks for null values, duplicates, outliers, and schema violations across data pipelines. | shell, sql, slack |
+| 274 | **[SQL Query Assistant](usecases/sql-query-assistant.md)** | Describe what data you need in natural language. OpenClaw writes, optimizes, and runs the SQL query. | sql, shell |
+| 275 | **[ETL Pipeline Monitor](usecases/etl-pipeline-monitor.md)** | Watch ETL jobs for failures, data volume anomalies, and processing time regressions. Alert on issues. | shell, slack, cron |
+| 276 | **[A/B Test Statistical Calculator](usecases/ab-test-statistical-calculator.md)** | Given experiment data, calculate significance, confidence intervals, effect sizes, and recommend decisions. | google-sheets, shell |
+| 277 | **[Data Catalog Builder](usecases/data-catalog-builder.md)** | Scan databases and data warehouses, document tables, columns, relationships, and generate a searchable catalog. | sql, file-system |
+| 278 | **[ML Model Performance Monitor](usecases/ml-model-performance-monitor.md)** | Track model metrics (accuracy, precision, recall) over time. Alert on drift and performance degradation. | shell, google-sheets, slack |
+| 279 | **[Customer Segmentation Runner](usecases/customer-segmentation-runner.md)** | Run clustering analysis on customer data, generate segment profiles, and suggest targeted marketing strategies. | google-sheets, python |
+| 280 | **[Anomaly Detection Alert System](usecases/anomaly-detection-alert-system.md)** | Monitor business metrics for anomalies (spike in errors, drop in conversions) and alert with context. | google-analytics, slack |
+| 281 | **[Data Dictionary Generator](usecases/data-dictionary-generator.md)** | Automatically document database schemas with column descriptions, data types, and business context. | sql, file-system |
+| 282 | **[KPI Scorecard Generator](usecases/kpi-scorecard-generator.md)** | Weekly automated scorecard with all key metrics, traffic lights, and trend indicators across the business. | google-sheets, google-analytics, slack |
 
 ---
 
@@ -551,18 +551,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 283 | **Home Assistant Controller** | Full home control via chat — Philips Hue lights, Elgato devices, thermostat, locks, and routines. | [ha-mcp](https://github.com/voynow/ha-mcp) |
-| 284 | **Security Camera Monitor** | Check apartment parking via UniFi Protect, analyze camera snapshots with AI, and alert on anomalies. | unifi-protect, browser |
-| 285 | **Smart Doorbell AI** | Person detection triggers AI-powered descriptions of who's at the door via webhook. | webhooks, camera, telegram |
-| 286 | **Night Mode Lockdown** | "Goodnight" command: lock all doors, kill lights, arm security, set thermostat to sleep mode, enable do-not-disturb. | ha-mcp, cron |
-| 287 | **Energy Usage Monitor** | Track electricity consumption via IoTaWatt or smart plugs. Alert on abnormal usage patterns and suggest savings. | iotawatt, google-sheets |
-| 288 | **Weather-Aware Home Automation** | Adjust thermostat, close blinds, or trigger routines based on weather forecasts and sunrise/sunset. | weather-api, ha-mcp |
-| 289 | **Alexa/HomePod Voice Bridge** | Control OpenClaw via voice through Alexa CLI or HomePod commands. Natural language home automation. | shell, ha-mcp |
-| 290 | **Plant Watering Scheduler** | Track plant watering needs based on species, pot size, and local humidity. Send reminders with care tips. | cron, telegram, weather-api |
-| 291 | **Garage Door Monitor** | Check if garage door is open via sensor integration. Auto-remind if left open after 10pm. | ha-mcp, telegram, cron |
-| 292 | **Pet Feeding Scheduler** | Track pet feeding times, send reminders, and log feeding history for multi-person households. | telegram, memory, cron |
-| 293 | **HVAC Optimization Agent** | Analyze heating/cooling patterns, energy costs, and weather forecasts to optimize thermostat schedules. | ha-mcp, weather-api, google-sheets |
-| 294 | **Laundry Cycle Notifier** | Get notified when your washer/dryer cycle is done based on smart plug power monitoring. | ha-mcp, telegram |
+| 283 | **[Home Assistant Controller](usecases/home-assistant-controller.md)** | Full home control via chat — Philips Hue lights, Elgato devices, thermostat, locks, and routines. | [ha-mcp](https://github.com/voynow/ha-mcp) |
+| 284 | **[Security Camera Monitor](usecases/security-camera-monitor.md)** | Check apartment parking via UniFi Protect, analyze camera snapshots with AI, and alert on anomalies. | unifi-protect, browser |
+| 285 | **[Smart Doorbell AI](usecases/smart-doorbell-ai.md)** | Person detection triggers AI-powered descriptions of who's at the door via webhook. | webhooks, camera, telegram |
+| 286 | **[Night Mode Lockdown](usecases/night-mode-lockdown.md)** | "Goodnight" command: lock all doors, kill lights, arm security, set thermostat to sleep mode, enable do-not-disturb. | ha-mcp, cron |
+| 287 | **[Energy Usage Monitor](usecases/energy-usage-monitor.md)** | Track electricity consumption via IoTaWatt or smart plugs. Alert on abnormal usage patterns and suggest savings. | iotawatt, google-sheets |
+| 288 | **[Weather-Aware Home Automation](usecases/weather-aware-home-automation.md)** | Adjust thermostat, close blinds, or trigger routines based on weather forecasts and sunrise/sunset. | weather-api, ha-mcp |
+| 289 | **[Alexa/HomePod Voice Bridge](usecases/alexa-homepod-voice-bridge.md)** | Control OpenClaw via voice through Alexa CLI or HomePod commands. Natural language home automation. | shell, ha-mcp |
+| 290 | **[Plant Watering Scheduler](usecases/plant-watering-scheduler.md)** | Track plant watering needs based on species, pot size, and local humidity. Send reminders with care tips. | cron, telegram, weather-api |
+| 291 | **[Garage Door Monitor](usecases/garage-door-monitor.md)** | Check if garage door is open via sensor integration. Auto-remind if left open after 10pm. | ha-mcp, telegram, cron |
+| 292 | **[Pet Feeding Scheduler](usecases/pet-feeding-scheduler.md)** | Track pet feeding times, send reminders, and log feeding history for multi-person households. | telegram, memory, cron |
+| 293 | **[HVAC Optimization Agent](usecases/hvac-optimization-agent.md)** | Analyze heating/cooling patterns, energy costs, and weather forecasts to optimize thermostat schedules. | ha-mcp, weather-api, google-sheets |
+| 294 | **[Laundry Cycle Notifier](usecases/laundry-cycle-notifier.md)** | Get notified when your washer/dryer cycle is done based on smart plug power monitoring. | ha-mcp, telegram |
 
 ---
 
@@ -572,18 +572,18 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 295 | **Family Calendar Hub** | Aggregate all family calendars into a morning briefing. Monitor messages for appointments and send unified schedules. | google-calendar, gmail, telegram |
-| 296 | **Grocery List Manager** | When anyone texts "we need milk," add it to the shared list. Auto-categorize by aisle for efficient shopping. | telegram, whatsapp, google-sheets |
-| 297 | **Household Inventory Tracker** | Track pantry items, cleaning supplies, and household essentials. Auto-generate shopping lists when items run low. | memory, google-sheets |
-| 298 | **Chore Assignment Rotator** | Rotate household chores weekly among family members. Send reminders and track completion. | google-sheets, telegram, cron |
-| 299 | **Kids' Homework Reminder** | Send homework reminders, track completion, and update parents on overdue assignments. | google-calendar, telegram |
-| 300 | **Meal Planning & Recipe Finder** | Weekly meal planning based on dietary preferences, ingredients on hand, and family favorites. Generate shopping lists. | web-search, google-sheets |
-| 301 | **Family Budget Tracker** | Track household expenses across family members. Categorize, set budgets per category, and send monthly summaries. | google-sheets, gmail |
-| 302 | **School Permission Slip Tracker** | Track which permission slips are due, remind parents, and log returned forms. | gmail, google-calendar, telegram |
-| 303 | **Babysitter Instructions Compiler** | Generate a comprehensive babysitter info sheet: emergency contacts, routines, allergies, bedtimes, and house rules. | memory, file-system |
-| 304 | **Family Movie Night Planner** | Based on family preferences and what you've watched, suggest movies with streaming availability and ratings. | web-search, memory |
-| 305 | **Birthday & Event Reminder System** | Track family and friends' birthdays, anniversaries, and events. Send gift suggestion reminders 2 weeks before. | google-calendar, telegram, cron |
-| 306 | **Carpooling Coordinator** | Coordinate school/activity carpools among parent groups. Track schedules, assignments, and send day-of reminders. | google-calendar, telegram |
+| 295 | **[Family Calendar Hub](usecases/family-calendar-household-assistant.md)** | Aggregate all family calendars into a morning briefing. Monitor messages for appointments and send unified schedules. | google-calendar, gmail, telegram |
+| 296 | **[Grocery List Manager](usecases/grocery-list-manager.md)** | When anyone texts "we need milk," add it to the shared list. Auto-categorize by aisle for efficient shopping. | telegram, whatsapp, google-sheets |
+| 297 | **[Household Inventory Tracker](usecases/household-inventory-tracker.md)** | Track pantry items, cleaning supplies, and household essentials. Auto-generate shopping lists when items run low. | memory, google-sheets |
+| 298 | **[Chore Assignment Rotator](usecases/chore-assignment-rotator.md)** | Rotate household chores weekly among family members. Send reminders and track completion. | google-sheets, telegram, cron |
+| 299 | **[Kids' Homework Reminder](usecases/kids-homework-reminder.md)** | Send homework reminders, track completion, and update parents on overdue assignments. | google-calendar, telegram |
+| 300 | **[Meal Planning & Recipe Finder](usecases/meal-planning-recipe-finder.md)** | Weekly meal planning based on dietary preferences, ingredients on hand, and family favorites. Generate shopping lists. | web-search, google-sheets |
+| 301 | **[Family Budget Tracker](usecases/family-budget-tracker.md)** | Track household expenses across family members. Categorize, set budgets per category, and send monthly summaries. | google-sheets, gmail |
+| 302 | **[School Permission Slip Tracker](usecases/school-permission-slip-tracker.md)** | Track which permission slips are due, remind parents, and log returned forms. | gmail, google-calendar, telegram |
+| 303 | **[Babysitter Instructions Compiler](usecases/babysitter-instructions-compiler.md)** | Generate a comprehensive babysitter info sheet: emergency contacts, routines, allergies, bedtimes, and house rules. | memory, file-system |
+| 304 | **[Family Movie Night Planner](usecases/family-movie-night-planner.md)** | Based on family preferences and what you've watched, suggest movies with streaming availability and ratings. | web-search, memory |
+| 305 | **[Birthday & Event Reminder System](usecases/birthday-event-reminder-system.md)** | Track family and friends' birthdays, anniversaries, and events. Send gift suggestion reminders 2 weeks before. | google-calendar, telegram, cron |
+| 306 | **[Carpooling Coordinator](usecases/carpooling-coordinator.md)** | Coordinate school/activity carpools among parent groups. Track schedules, assignments, and send day-of reminders. | google-calendar, telegram |
 
 ---
 
@@ -593,24 +593,24 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 307 | **Custom Morning Brief** | Fully customized daily briefing — weather, news, tasks, calendar, content drafts, and AI-recommended actions. | web-search, google-calendar, telegram |
-| 308 | **Second Brain** | Text anything to your bot to remember it. Search through all memories in a custom dashboard. | memory, nextjs |
-| 309 | **Inbox De-Clutter** | Summarize newsletters, unsubscribe from noise, and send a curated digest of what actually matters. | gmail, telegram |
-| 310 | **Habit Tracker & Accountability Coach** | Daily check-ins via Telegram that track habits, maintain streaks, and adapt tone based on progress. | telegram, memory, cron |
-| 311 | **Phone-Based Personal Assistant** | Access OpenClaw from any phone via voice call or SMS. Calendar, web search, and task management hands-free. | twilio, google-calendar, web-search |
-| 312 | **Multi-Channel Personal Assistant** | Route tasks across Telegram, Slack, email, and calendar from a single AI assistant. | telegram, slack, gmail, google-calendar |
-| 313 | **Todoist Task Manager** | Sync agent reasoning and progress to Todoist. Full transparency of what your agent is doing and why. | [todoist-mcp](https://clawhub.ai) |
-| 314 | **Voice Notes to Journal** | Send voice notes throughout the day; OpenClaw transcribes and compiles them into a clean evening journal entry. | whisper, memory, cron |
-| 315 | **Flight Check-In Automation** | Find your next flight, run check-in at the right time, and locate your preferred seat — even while you're driving. | browser, gmail |
-| 316 | **Reading List Manager** | Track articles, books, and papers you want to read. Queue by priority, send daily reading suggestions. | memory, telegram |
-| 317 | **Password & Account Auditor** | Scan email for account creation confirmations, compile a list of all services you've signed up for. | gmail, google-sheets |
-| 318 | **Life Admin Day Planner** | Weekly "admin day" briefing: bills due, appointments needed, renewals coming up, and errands to run. | gmail, google-calendar, telegram |
-| 319 | **Goal Tracking with Beeminder** | Connect to Beeminder for commitment-device-powered goal tracking with real stakes. | [beeminder](https://clawhub.ai) |
-| 320 | **Travel Packing List Generator** | Based on destination, weather forecast, trip length, and activities, generate a customized packing list. | weather-api, memory |
-| 321 | **Event Guest Confirmation Bot** | Call a list of guests one-by-one to confirm attendance, collect dietary needs, and compile a summary report. | twilio, google-sheets |
-| 322 | **Book Summary & Notes Compiler** | After finishing a book, compile your highlights, notes, and key takeaways into a structured summary. | memory, file-system |
-| 323 | **Subscription Manager** | Track all subscriptions, payment dates, and costs. Alert before renewals and suggest ones to cancel. | gmail, google-sheets, cron |
-| 324 | **Daily Standup Automator** | Compile what you did yesterday (from git, email, calendar) and what's planned today. Share to team channel. | github, gmail, google-calendar, slack |
+| 307 | **[Custom Morning Brief](usecases/custom-morning-brief.md)** | Fully customized daily briefing — weather, news, tasks, calendar, content drafts, and AI-recommended actions. | web-search, google-calendar, telegram |
+| 308 | **[Second Brain](usecases/second-brain.md)** | Text anything to your bot to remember it. Search through all memories in a custom dashboard. | memory, nextjs |
+| 309 | **[Inbox De-Clutter](usecases/inbox-declutter.md)** | Summarize newsletters, unsubscribe from noise, and send a curated digest of what actually matters. | gmail, telegram |
+| 310 | **[Habit Tracker & Accountability Coach](usecases/habit-tracker-accountability-coach.md)** | Daily check-ins via Telegram that track habits, maintain streaks, and adapt tone based on progress. | telegram, memory, cron |
+| 311 | **[Phone-Based Personal Assistant](usecases/phone-based-personal-assistant.md)** | Access OpenClaw from any phone via voice call or SMS. Calendar, web search, and task management hands-free. | twilio, google-calendar, web-search |
+| 312 | **[Multi-Channel Personal Assistant](usecases/multi-channel-assistant.md)** | Route tasks across Telegram, Slack, email, and calendar from a single AI assistant. | telegram, slack, gmail, google-calendar |
+| 313 | **[Todoist Task Manager](usecases/todoist-task-manager.md)** | Sync agent reasoning and progress to Todoist. Full transparency of what your agent is doing and why. | [todoist-mcp](https://clawhub.ai) |
+| 314 | **[Voice Notes to Journal](usecases/voice-notes-to-journal.md)** | Send voice notes throughout the day; OpenClaw transcribes and compiles them into a clean evening journal entry. | whisper, memory, cron |
+| 315 | **[Flight Check-In Automation](usecases/flight-check-in-automation.md)** | Find your next flight, run check-in at the right time, and locate your preferred seat — even while you're driving. | browser, gmail |
+| 316 | **[Reading List Manager](usecases/reading-list-manager.md)** | Track articles, books, and papers you want to read. Queue by priority, send daily reading suggestions. | memory, telegram |
+| 317 | **[Password & Account Auditor](usecases/password-account-auditor.md)** | Scan email for account creation confirmations, compile a list of all services you've signed up for. | gmail, google-sheets |
+| 318 | **[Life Admin Day Planner](usecases/life-admin-day-planner.md)** | Weekly "admin day" briefing: bills due, appointments needed, renewals coming up, and errands to run. | gmail, google-calendar, telegram |
+| 319 | **[Goal Tracking with Beeminder](usecases/goal-tracking-beeminder.md)** | Connect to Beeminder for commitment-device-powered goal tracking with real stakes. | [beeminder](https://clawhub.ai) |
+| 320 | **[Travel Packing List Generator](usecases/travel-packing-list-generator.md)** | Based on destination, weather forecast, trip length, and activities, generate a customized packing list. | weather-api, memory |
+| 321 | **[Event Guest Confirmation Bot](usecases/event-guest-confirmation.md)** | Call a list of guests one-by-one to confirm attendance, collect dietary needs, and compile a summary report. | twilio, google-sheets |
+| 322 | **[Book Summary & Notes Compiler](usecases/book-summary-notes-compiler.md)** | After finishing a book, compile your highlights, notes, and key takeaways into a structured summary. | memory, file-system |
+| 323 | **[Subscription Manager](usecases/subscription-manager.md)** | Track all subscriptions, payment dates, and costs. Alert before renewals and suggest ones to cancel. | gmail, google-sheets, cron |
+| 324 | **[Daily Standup Automator](usecases/daily-standup-automator.md)** | Compile what you did yesterday (from git, email, calendar) and what's planned today. Share to team channel. | github, gmail, google-calendar, slack |
 
 ---
 
@@ -620,16 +620,16 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 325 | **Music Practice Scheduler** | Track practice sessions, log progress by technique/piece, and generate weekly practice plans. | memory, google-calendar, cron |
-| 326 | **Song Chord Extractor** | Extract tracks, create GIFs, and generate PDFs with chords from songs for practice. | shell, file-system |
-| 327 | **Gig Opportunity Finder** | Monitor local venue postings, music forums, and event sites for performance opportunities matching your genre. | web-search, google-sheets, gmail |
-| 328 | **Commission Request Manager** | Track art commissions: client requests, pricing, deadlines, revision rounds, and payment status. | google-sheets, gmail, telegram |
-| 329 | **Portfolio Site Updater** | When new work is completed, auto-add to your portfolio site with descriptions and project details. | github, file-system |
-| 330 | **Royalty & License Tracker** | Track licensing deals, royalty payments, and usage rights across all distributed creative works. | google-sheets, gmail |
-| 331 | **Creative Brief Parser** | Extract key requirements from creative briefs received via email. Compile into a standardized project doc. | gmail, notion |
-| 332 | **Art Supply Inventory** | Track materials and supplies. Alert when items are running low and generate reorder lists. | google-sheets, telegram |
-| 333 | **Exhibition & Submission Calendar** | Track open calls, exhibition deadlines, and submission requirements for galleries and competitions. | web-search, google-calendar |
-| 334 | **Client Mood Board Builder** | Given a creative direction, compile reference images, color palettes, and typography examples from the web. | web-search, browser |
+| 325 | **[Music Practice Scheduler](usecases/music-practice-scheduler.md)** | Track practice sessions, log progress by technique/piece, and generate weekly practice plans. | memory, google-calendar, cron |
+| 326 | **[Song Chord Extractor](usecases/song-chord-extractor.md)** | Extract tracks, create GIFs, and generate PDFs with chords from songs for practice. | shell, file-system |
+| 327 | **[Gig Opportunity Finder](usecases/gig-opportunity-finder.md)** | Monitor local venue postings, music forums, and event sites for performance opportunities matching your genre. | web-search, google-sheets, gmail |
+| 328 | **[Commission Request Manager](usecases/commission-request-manager.md)** | Track art commissions: client requests, pricing, deadlines, revision rounds, and payment status. | google-sheets, gmail, telegram |
+| 329 | **[Portfolio Site Updater](usecases/portfolio-site-updater.md)** | When new work is completed, auto-add to your portfolio site with descriptions and project details. | github, file-system |
+| 330 | **[Royalty & License Tracker](usecases/royalty-license-tracker.md)** | Track licensing deals, royalty payments, and usage rights across all distributed creative works. | google-sheets, gmail |
+| 331 | **[Creative Brief Parser](usecases/creative-brief-parser.md)** | Extract key requirements from creative briefs received via email. Compile into a standardized project doc. | gmail, notion |
+| 332 | **[Art Supply Inventory](usecases/art-supply-inventory.md)** | Track materials and supplies. Alert when items are running low and generate reorder lists. | google-sheets, telegram |
+| 333 | **[Exhibition & Submission Calendar](usecases/exhibition-submission-calendar.md)** | Track open calls, exhibition deadlines, and submission requirements for galleries and competitions. | web-search, google-calendar |
+| 334 | **[Client Mood Board Builder](usecases/client-mood-board-builder.md)** | Given a creative direction, compile reference images, color palettes, and typography examples from the web. | web-search, browser |
 
 ---
 
@@ -639,22 +639,22 @@ This repository is the **largest curated collection** of real, practical OpenCla
 
 | # | Name | Description | Skills/Tools |
 |---|------|-------------|--------------|
-| 335 | **Volunteer Coordination System** | Manage volunteer sign-ups, shift schedules, reminder notifications, and hour tracking. | google-sheets, gmail, google-calendar |
-| 336 | **Donation Acknowledgment Bot** | When donations come in, auto-generate thank-you emails with tax receipt details. | stripe, gmail |
-| 337 | **Grant Application Tracker** | Monitor grant opportunities, track application deadlines, compile required documents, and manage submissions. | web-search, google-calendar, google-drive |
-| 338 | **Community Newsletter Automator** | Aggregate community updates, events, and announcements into a formatted newsletter draft. | gmail, google-sheets, notion |
-| 339 | **Event Planning Pipeline** | From venue research to attendee management to post-event follow-up — manage the entire lifecycle via chat. | google-calendar, gmail, google-sheets |
-| 340 | **Travel Itinerary Builder** | Research flights, hotels, activities, and restaurants. Compile a day-by-day itinerary with booking links. | web-search, browser, google-sheets |
-| 341 | **Trip Budget Calculator** | Estimate total trip costs based on destination, duration, accommodation level, and activities. Track against budget. | web-search, google-sheets |
-| 342 | **Membership Management System** | Track members, renewal dates, payment status, and engagement levels. Send renewal reminders. | google-sheets, gmail, cron |
-| 343 | **Impact Report Generator** | Compile program data, beneficiary stories, and metrics into a formatted impact report for stakeholders. | google-sheets, file-system |
-| 344 | **Multi-Language Community Support** | Route community questions in different languages, auto-translate, and respond in the requester's language. | telegram, discord |
-| 345 | **Local Government Meeting Monitor** | Track public meeting agendas and minutes for topics relevant to your community. Alert on relevant items. | web-search, browser, telegram |
-| 346 | **Fundraising Campaign Tracker** | Monitor donation progress toward goals, send team updates, and generate donor reports. | stripe, google-sheets, slack |
-| 347 | **Language Learning Partner** | Daily vocabulary practice, conversation exercises, and spaced repetition — all via your messaging app. | memory, telegram, cron |
-| 348 | **Cultural Event Discovery** | Monitor local event listings, filter by interests, and send weekly curated lists of things to do. | web-search, google-calendar, telegram |
-| 349 | **Pet Care Manager** | Track vet appointments, vaccination schedules, medication reminders, and feeding routines for all pets. | google-calendar, telegram, memory |
-| 350 | **Disaster Preparedness Checklist** | Generate and maintain emergency kits, evacuation plans, and important document copies. Send seasonal review reminders. | memory, google-sheets, cron |
+| 335 | **[Volunteer Coordination System](usecases/volunteer-coordination-system.md)** | Manage volunteer sign-ups, shift schedules, reminder notifications, and hour tracking. | google-sheets, gmail, google-calendar |
+| 336 | **[Donation Acknowledgment Bot](usecases/donation-acknowledgment-bot.md)** | When donations come in, auto-generate thank-you emails with tax receipt details. | stripe, gmail |
+| 337 | **[Grant Application Tracker](usecases/grant-application-tracker-np.md)** | Monitor grant opportunities, track application deadlines, compile required documents, and manage submissions. | web-search, google-calendar, google-drive |
+| 338 | **[Community Newsletter Automator](usecases/community-newsletter-automator.md)** | Aggregate community updates, events, and announcements into a formatted newsletter draft. | gmail, google-sheets, notion |
+| 339 | **[Event Planning Pipeline](usecases/event-planning-pipeline.md)** | From venue research to attendee management to post-event follow-up — manage the entire lifecycle via chat. | google-calendar, gmail, google-sheets |
+| 340 | **[Travel Itinerary Builder](usecases/travel-itinerary-builder.md)** | Research flights, hotels, activities, and restaurants. Compile a day-by-day itinerary with booking links. | web-search, browser, google-sheets |
+| 341 | **[Trip Budget Calculator](usecases/trip-budget-calculator.md)** | Estimate total trip costs based on destination, duration, accommodation level, and activities. Track against budget. | web-search, google-sheets |
+| 342 | **[Membership Management System](usecases/membership-management-system.md)** | Track members, renewal dates, payment status, and engagement levels. Send renewal reminders. | google-sheets, gmail, cron |
+| 343 | **[Impact Report Generator](usecases/impact-report-generator.md)** | Compile program data, beneficiary stories, and metrics into a formatted impact report for stakeholders. | google-sheets, file-system |
+| 344 | **[Multi-Language Community Support](usecases/multi-language-community-support.md)** | Route community questions in different languages, auto-translate, and respond in the requester's language. | telegram, discord |
+| 345 | **[Local Government Meeting Monitor](usecases/local-government-meeting-monitor.md)** | Track public meeting agendas and minutes for topics relevant to your community. Alert on relevant items. | web-search, browser, telegram |
+| 346 | **[Fundraising Campaign Tracker](usecases/fundraising-campaign-tracker.md)** | Monitor donation progress toward goals, send team updates, and generate donor reports. | stripe, google-sheets, slack |
+| 347 | **[Language Learning Partner](usecases/language-learning-partner.md)** | Daily vocabulary practice, conversation exercises, and spaced repetition — all via your messaging app. | memory, telegram, cron |
+| 348 | **[Cultural Event Discovery](usecases/cultural-event-discovery.md)** | Monitor local event listings, filter by interests, and send weekly curated lists of things to do. | web-search, google-calendar, telegram |
+| 349 | **[Pet Care Manager](usecases/pet-care-manager.md)** | Track vet appointments, vaccination schedules, medication reminders, and feeding routines for all pets. | google-calendar, telegram, memory |
+| 350 | **[Disaster Preparedness Checklist](usecases/disaster-preparedness-checklist.md)** | Generate and maintain emergency kits, evacuation plans, and important document copies. Send seasonal review reminders. | memory, google-sheets, cron |
 
 ---
 
